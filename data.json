@@ -1,17 +1,87 @@
 [
   {
-    "powerlevel": "20 Trillion",
+    "powerlevel": "2.5 Trillion",
+    "name": "Goku",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/2/2d/Super_Kaio-ken.png/revision/latest?cb=20260314070233",
+    "form": "Super Kaioken",
+    "info": "Other World Tournament Saga"
+  },
+  {
+    "powerlevel": "1.25 Trillion",
+    "name": "Goku",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzl4iKqoaAtUG2q3QK73r4Lv4oHYt_KLcIIA&s",
+    "form": "Super Saiyan",
+    "info": "Other World Tournament Saga"
+  },
+  {
+    "powerlevel": "1.25 Trillion",
+    "name": "Pikkon",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/2/26/PikkonDBZ.png/revision/latest/scale-to-width-down/576?cb=20091112121125",
+    "form": "No Weights",
+    "info": "Other World Tournament Saga"
+  },
+  {
+    "powerlevel": "41 Billion",
+    "name": "Gohan",
+    "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/03/dragon-ball-gohan-super-saiyan-2.jpg?w=1600&h=900&fit=crop",
+    "form": "Super Saiyan 2",
+    "info": "Cell Games Saga"
+  },
+  {
+    "powerlevel": "40 Billion",
+    "name": "Cell",
+    "image": "https://static.wikia.nocookie.net/magicandsuperpowers/images/5/59/250px-Cell_Kamehameha.jpg/revision/latest?cb=20101127183448",
+    "form": "Super Perfect Form",
+    "info": "Cell Games Saga"
+  },
+  {
+    "powerlevel": "25 Billion",
+    "name": "Goku",
+    "image": "https://static0.cbrimages.com/wordpress/wp-content/uploads/2019/12/Goku-Other-World-Tournament-1-Cropped.jpg?q=50&fit=crop&w=825&dpr=1.5",
+    "form": "Base",
+    "info": "Other World Tournament Saga"
+  },
+  {
+    "powerlevel": "25 Billion",
+    "name": "Pikkon",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/1/10/PikkonGrandKaisPlanet.png/revision/latest/scale-to-width-down/700?cb=20100308073406",
+    "form": "With Weights",
+    "info": "Other World Tournament Saga"
+  },
+  {
+    "powerlevel": "20.5 Billion",
+    "name": "Gohan",
+    "image": "https://i.ytimg.com/vi/MGzWrEebLQ8/hqdefault.jpg",
+    "form": "Super Saiyan 2",
+    "info": "Buu Saga"
+  },
+  {
+    "powerlevel": "20 Billion",
     "name": "Dabura",
     "image": "https://preview.redd.it/so-we-all-agree-that-dabura-was-based-off-the-lord-of-v0-6po6q5fqoyfe1.jpg?width=640&crop=smart&auto=webp&s=c56ca378ac3f8a928e4874e516d9cb85d618e2f1",
     "form": "Majin Form",
     "info": "Buu Saga"
   },
   {
-    "powerlevel": "20 Trillion",
+    "powerlevel": "20 Billion",
     "name": "Cell",
     "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/07/reasons-why-perfect-cell-is-the-best-dragon-ball-villain.jpg",
     "form": "Perfect Form",
-    "info": "Cell Saga"
+    "info": "Cell Games Saga"
+  },
+  {
+    "powerlevel": "10.25 Billion",
+    "name": "Gohan",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrbRBPb1tu5uhGs9wenh2KukVVGpEFaZ6tQA&s",
+    "form": "Super Saiyan",
+    "info": "Buu Saga"
+  },
+  {
+    "powerlevel": "205 Million",
+    "name": "Gohan",
+    "image": "https://preview.redd.it/how-powerful-would-gohan-be-in-the-buu-saga-if-he-didnt-v0-w5pgdzvu51qd1.jpeg?width=640&crop=smart&auto=webp&s=fd44982119e76811a1632d99b4c2f1441396df00",
+    "form": "Base",
+    "info": "Buu Saga"
   },
   {
     "powerlevel": "200 Million",
@@ -26,6 +96,13 @@
     "image": "https://static.wikia.nocookie.net/dragonball/images/9/95/Super_Saiyan_Goku_%28Kai%29.png/revision/latest/scale-to-width-down/1428?cb=20251229041940",
     "form": "Super Saiyan",
     "info": "Freiza Saga"
+  },
+  {
+    "powerlevel": "140 Million",
+    "name": "Supreme Kai",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/1/17/KaiSupremeNV.png/revision/latest?cb=20120111094205",
+    "form": "Base",
+    "info": "Buu Saga"
   },
   {
     "powerlevel": "120 Million",
@@ -133,6 +210,41 @@
     "info": "Saiyan Saga"
   },
   {
+    "powerlevel": "7,000",
+    "name": "Nappa",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/f/f4/NappaInjured_DBZ_Episode_28.png/revision/latest/scale-to-width-down/985?cb=20250520174523",
+    "form": "Base",
+    "info": "Saiyan Saga"
+  },
+  {
+    "powerlevel": "3,500",
+    "name": "Piccolo",
+    "image": "https://i.redd.it/in-your-opinion-whats-the-saddest-moment-in-the-series-v0-fhzktf1pxwvb1.jpg?width=1440&format=pjpg&auto=webp&s=e1d1c5044ea0d02c97d48cd35e363f45ca3d2f46",
+    "form": "Base",
+    "info": "Saiyan Saga"
+  },
+  {
+    "powerlevel": "1,830",
+    "name": "Tien",
+    "image": "https://i.redd.it/7z99w97ze7s41.jpg",
+    "form": "Base",
+    "info": "Saiyan Saga"
+  },
+  {
+    "powerlevel": "1,770",
+    "name": "Krillin",
+    "image": "https://i.redd.it/04otygs9v35c1.jpg",
+    "form": "Base",
+    "info": "Saiyan Saga"
+  },
+  {
+    "powerlevel": "1,480",
+    "name": "Yamcha",
+    "image": "https://i.redd.it/yamcha-pose-v0-jkeuhbv0hogd1.jpg?width=437&format=pjpg&auto=webp&s=d9f424433d7374fdeeefdbeee988812719f6fd4b",
+    "form": "Base",
+    "info": "Saiyan Saga"
+  },
+  {
     "powerlevel": "1,200",
     "name": "Saibermen",
     "image": "https://static.wikia.nocookie.net/dragonball/images/1/10/Saibamen_Manga.png/revision/latest/scale-to-width/360?cb=20210506052607",
@@ -157,6 +269,34 @@
     "powerlevel": "408",
     "name": "Piccolo",
     "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/f/f9/Piccolo_vs_Raditz_01.png/revision/latest/scale-to-width-down/340?cb=20210703055614",
+    "form": "Base",
+    "info": "Raditz Saga"
+  },
+  {
+    "powerlevel": "250",
+    "name": "Tien",
+    "image": "https://assets.mycast.io/characters/tien-327037-normal.jpg?1594979013",
+    "form": "Base",
+    "info": "Raditz Saga"
+  },
+  {
+    "powerlevel": "206",
+    "name": "Krillin",
+    "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2022/06/Screen-Shot-2022-06-01-at-3.52.47-PM.jpg?q=50&fit=crop&w=825&dpr=1.5",
+    "form": "Base",
+    "info": "Raditz Saga"
+  },
+  {
+    "powerlevel": "177",
+    "name": "Yamcha",
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/9/99/Yamcha_Post_Trainingg.png/revision/latest/scale-to-width-down/985?cb=20230521160437",
+    "form": "Base",
+    "info": "Raditz Saga"
+  },
+  {
+    "powerlevel": "139",
+    "name": "Master Roshi",
+    "image": "https://static.wikia.nocookie.net/teamfourstar/images/3/39/MasterRoshi.png/revision/latest/thumbnail/width/360/height/450?cb=20160405222915",
     "form": "Base",
     "info": "Raditz Saga"
   },
