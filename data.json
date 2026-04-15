@@ -84,7 +84,7 @@
     "info": "Buu Saga"
   },
   {
-    "powerlevel": "3.1 Trillion",
+    "powerlevel": "3 Trillion",
     "name": "Vegeta",
     "image": "https://i.redd.it/wikt88gredbb1.jpg",
     "form": "Majin Form",
@@ -126,21 +126,28 @@
     "info": "Other World Tournament Saga"
   },
   {
-    "powerlevel": "45 Billion",
+    "powerlevel": "50 Billion",
     "name": "Vegeta",
     "image": "https://comicvine.gamespot.com/a/uploads/original/11115/111158605/4486337-furious_vegeta_ssj2_by_nemotrex-d4anmhb.jpg",
     "form": "Super Saiyan 2",
     "info": "Buu Saga"
   },
   {
-    "powerlevel": "41 Billion",
+    "powerlevel": "40 Billion",
+    "name": "Gohan",
+    "image": "https://i.ytimg.com/vi/MGzWrEebLQ8/hqdefault.jpg",
+    "form": "Super Saiyan 2",
+    "info": "Buu Saga"
+  },
+  {
+    "powerlevel": "38 Billion",
     "name": "Gohan",
     "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/03/dragon-ball-gohan-super-saiyan-2.jpg?w=1600&h=900&fit=crop",
     "form": "Super Saiyan 2",
     "info": "Cell Games Saga"
   },
   {
-    "powerlevel": "40 Billion",
+    "powerlevel": "35 Billion",
     "name": "Cell",
     "image": "https://static.wikia.nocookie.net/magicandsuperpowers/images/5/59/250px-Cell_Kamehameha.jpg/revision/latest?cb=20101127183448",
     "form": "Super Perfect Form",
@@ -168,17 +175,17 @@
     "info": "Other World Tournament Saga"
   },
   {
-    "powerlevel": "22.5 Billion",
+    "powerlevel": "25 Billion",
     "name": "Vegeta",
     "image": "https://static.wikia.nocookie.net/dragonball/images/9/9c/VegetaOwnedByKidBuuEp281.png/revision/latest/scale-to-width-down/720?cb=20220821160800",
     "form": "Super Saiyan",
     "info": "Buu Saga"
   },
   {
-    "powerlevel": "20.5 Billion",
+    "powerlevel": "20 Billion",
     "name": "Gohan",
-    "image": "https://i.ytimg.com/vi/MGzWrEebLQ8/hqdefault.jpg",
-    "form": "Super Saiyan 2",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrbRBPb1tu5uhGs9wenh2KukVVGpEFaZ6tQA&s",
+    "form": "Super Saiyan",
     "info": "Buu Saga"
   },
   {
@@ -196,6 +203,13 @@
     "info": "Cell Games Saga"
   },
   {
+    "powerlevel": "19 Billion",
+    "name": "Gohan",
+    "image": "https://comicvine.gamespot.com/a/uploads/original/11115/111158605/4358196-son_gohan_vs_cell.png",
+    "form": "Super Saiyan",
+    "info": "Cell Games Saga"
+  },
+  {
     "powerlevel": "18 Billion",
     "name": "Goku",
     "image": "https://i.redd.it/cell-game-goku-vs-shin-v0-o8i48j8yblpg1.jpg?width=1000&format=pjpg&auto=webp&s=3b59954d540cf8478cfab2b8d5340afe30e97e0e",
@@ -203,21 +217,42 @@
     "info": "Cell Games Saga"
   },
   {
-    "powerlevel": "10.25 Billion",
-    "name": "Gohan",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrbRBPb1tu5uhGs9wenh2KukVVGpEFaZ6tQA&s",
-    "form": "Super Saiyan",
-    "info": "Buu Saga"
+    "powerlevel": "15 Billion",
+    "name": "Future Trunks",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/0/00/Trunks_SS_Third_Grade.png/revision/latest?cb=20220817155928",
+    "form": "Super Saiyan Grade 3",
+    "info": "Cell Saga"
   },
   {
-    "powerlevel": "10.25 Billion",
-    "name": "Gohan",
-    "image": "https://comicvine.gamespot.com/a/uploads/original/11115/111158605/4358196-son_gohan_vs_cell.png",
-    "form": "Super Saiyan",
-    "info": "Cell Games Saga"
+    "powerlevel": "10 Billion",
+    "name": "Vegeta",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/1/15/I_am_Super_Vegeta%21.png/revision/latest?cb=20220107223523",
+    "form": "Super Saiyan Grade 2",
+    "info": "Cell Saga"
   },
   {
-    "powerlevel": "450 Million",
+    "powerlevel": "5 Billion",
+    "name": "Cell",
+    "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2017/11/Semi-Perfect-Cell-from-Dragon-Ball.jpg?q=50&fit=crop&w=825&dpr=1.5",
+    "form": "Semi Perfect Form",
+    "info": "Cell Saga"
+  },
+  {
+    "powerlevel": "1.2 Billion",
+    "name": "Android 16",
+    "image": "https://static0.cbrimages.com/wordpress/wp-content/uploads/2022/07/android-16-smiles-in-dragon-ball.jpg?w=1600&h=900&fit=crop",
+    "form": "Base",
+    "info": "Cell Saga"
+  },
+  {
+    "powerlevel": "1 Billion",
+    "name": "Cell",
+    "image": "https://preview.redd.it/imperfect-cell-is-incredibly-underrated-dragon-ball-z-v0-v0czi2ox4msd1.jpg?width=701&format=pjpg&auto=webp&s=48642a931594285625cba09a77a727aaac698498",
+    "form": "1,000s of People Absorbed",
+    "info": "Cell Saga"
+  },
+  {
+    "powerlevel": "500 Million",
     "name": "Vegeta",
     "image": "https://preview.redd.it/options-for-buu-saga-vegeta-v0-4zfdscypk9ce1.png?auto=webp&s=bb23e50dbef0e3a20d84fa4fa9a878b80dcd6dc5",
     "form": "Base",
