@@ -21,9 +21,9 @@
 
             // Map the data into HTML strings
             container.innerHTML = characters.map(char => `
-                    <div class="character-card">
+                    <div class="character-card" style="border:3px solid ${char.border};">
                     <span class="powerlevel">${char.powerlevel}</span>
-                        <img src="${char.image}">
+                        <img src="${char.image}" style="border:3px solid ${char.border};">
                         <h2>${char.name}</h2>
                         <p>${char.form}</p>
                         <p>${char.info}</p>
