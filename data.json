@@ -1,4 +1,12 @@
 [
+  {
+    "powerlevel": "6.9 Quadrillion",
+    "name": "Goku",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/1/15/DragonBall25.png/revision/latest?cb=20151008013733",
+    "form": "Super Saiyan",
+    "info": "Battle of Gods Saga",
+    "border": "#7982EA"
+  },
  {
     "powerlevel": "4.5 Quadrillion",
     "name": "Vegito",
@@ -13,7 +21,15 @@
     "image": "https://comicbook.com/wp-content/uploads/sites/4/2023/08/b888489d-3777-4b3d-ab98-55af9a45c483.jpg?w=1200",
     "form": "Super Saiyan",
     "info": "Fusion Reborn Movie",
-    "border": "#E74E4E"
+    "border": "#98B17B"
+  },
+  {
+    "powerlevel": "138 Trillion",
+    "name": "Goku",
+    "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2020/03/super-saiyan-god-goku-header.jpg",
+    "form": "Super Saiyan God",
+    "info": "Battle of Gods Saga",
+    "border": "#7982EA"
   },
  {
     "powerlevel": "90 Trillion",
@@ -55,13 +71,13 @@
     "info": "Fusion Saga",
     "border": "#E59770"
   },
-   {
+  {
     "powerlevel": "13.8 Trillion",
     "name": "Goku",
-    "image": "https://i.ytimg.com/vi/PaqQpqdIjAA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCpMxuq76uBJb-Jh-c60JNFeWN4GQ",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/8/88/SSJ3%C2%B9%C2%B2.jpg/revision/latest/scale-to-width-down/985?cb=20150815153310",
     "form": "Super Saiyan 3",
     "info": "Battle of Gods Saga",
-    "border": "#FBEE8A"
+    "border": "#7982EA"
   },
  {
     "powerlevel": "12 Trillion",
@@ -176,6 +192,46 @@
     "border": "#E59770"
   },
   {
+    "powerlevel": "864 Billion",
+    "name": "Goku",
+    "image": "https://i.ytimg.com/vi/1jeo3ZLn_SE/maxresdefault.jpg",
+    "form": "Powered Super Saiyan",
+    "info": "Broly The Legendary Super Saiyan",
+    "border": "#98B17B"
+  },
+  {
+    "powerlevel": "750 Billion",
+    "name": "Broly",
+    "image": "https://preview.redd.it/opinions-on-broly-z-movie-super-movie-v0-pc84am8umewb1.jpg?width=1080&crop=smart&auto=webp&s=6dc427bcb1db53f576a5a00c65fe4c45b792d61e",
+    "form": "Legendary Super Saiyan",
+    "info": "Broly The Legendary Super Saiyan",
+    "border": "#98B17B"
+  },
+  {
+    "powerlevel": "500 Billion",
+    "name": "Tien",
+    "image": "https://static.wikia.nocookie.net/3463dc2a-6cec-44f9-9b5b-5ca97fd61240/scale-to-width/755",
+    "form": "Base",
+    "info": "Fusion Saga",
+    "border": "#E59770"
+  },
+  {
+    "powerlevel": "80 Billion",
+    "name": "Vegeta",
+    "image": "https://comicvine.gamespot.com/a/uploads/original/11117/111171673/7674011-d4xpn2z-b49282a7-1969-424f-a29f-bc01818ec6b3.png",
+    "form": "Super Saiyan 2",
+    "info": "Buu Saga",
+    "border": "#E59770"
+  },
+  {
+    "powerlevel": "76 Billion",
+    "name": "Gohan",
+    "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/03/dragon-ball-gohan-super-saiyan-2.jpg?w=1600&h=900&fit=crop",
+    "form": "Super Saiyan 2",
+    "info": "Cell Games Saga",
+    "border": "#E59770"
+  },
+  {
     "powerlevel": "50 Billion",
     "name": "Gotenks",
     "image": "https://static.wikia.nocookie.net/dragonball/images/3/38/GotenksIsBorn03.png/revision/latest/scale-to-width-down/340?cb=20100203180450",
@@ -184,10 +240,10 @@
     "border": "#E59770"
   },
   {
-    "powerlevel": "50 Billion",
+    "powerlevel": "40 Billion",
     "name": "Vegeta",
-    "image": "https://comicvine.gamespot.com/a/uploads/original/11117/111171673/7674011-d4xpn2z-b49282a7-1969-424f-a29f-bc01818ec6b3.png",
-    "form": "Super Saiyan 2",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/9/9c/VegetaOwnedByKidBuuEp281.png/revision/latest/scale-to-width-down/720?cb=20220821160800",
+    "form": "Super Saiyan",
     "info": "Buu Saga",
     "border": "#E59770"
   },
@@ -200,19 +256,27 @@
     "border": "#E59770"
   },
   {
-    "powerlevel": "38 Billion",
-    "name": "Gohan",
-    "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/03/dragon-ball-gohan-super-saiyan-2.jpg?w=1600&h=900&fit=crop",
-    "form": "Super Saiyan 2",
-    "info": "Cell Games Saga",
-    "border": "#E59770"
-  },
-  {
-    "powerlevel": "35 Billion",
+    "powerlevel": "40 Billion",
     "name": "Cell",
     "image": "https://static.wikia.nocookie.net/magicandsuperpowers/images/5/59/250px-Cell_Kamehameha.jpg/revision/latest?cb=20101127183448",
     "form": "Super Perfect Form",
     "info": "Cell Games Saga",
+    "border": "#E59770"
+  },
+  {
+    "powerlevel": "34.5 Billion",
+    "name": "Goku",
+    "image": "https://m.media-amazon.com/images/I/41NMi3k9yWL._AC_UF350,350_QL80_.jpg",
+    "form": "Base",
+    "info": "Battle of Gods Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "32 Billion",
+    "name": "Gohan",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/d/dc/GohanInKaiCostumeWithZSword.jpg/revision/latest?cb=20110508000925",
+    "form": "Base",
+    "info": "Fusion Saga",
     "border": "#E59770"
   },
   {
@@ -237,14 +301,6 @@
     "image": "https://static.wikia.nocookie.net/dragonball/images/1/10/PikkonGrandKaisPlanet.png/revision/latest/scale-to-width-down/700?cb=20100308073406",
     "form": "With Weights",
     "info": "Other World Tournament Saga",
-    "border": "#E59770"
-  },
-  {
-    "powerlevel": "25 Billion",
-    "name": "Vegeta",
-    "image": "https://static.wikia.nocookie.net/dragonball/images/9/9c/VegetaOwnedByKidBuuEp281.png/revision/latest/scale-to-width-down/720?cb=20220821160800",
-    "form": "Super Saiyan",
-    "info": "Buu Saga",
     "border": "#E59770"
   },
   {
@@ -304,6 +360,22 @@
     "border": "#E59770"
   },
   {
+    "powerlevel": "16 Billion",
+    "name": "Vegeta",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWr14uZqYPiBppTtva_zqmAtqlxryBVqa09A&s",
+    "form": "Super Saiyan",
+    "info": "Cell Games Saga",
+    "border": "#E59770"
+  },
+  {
+    "powerlevel": "16 Billion",
+    "name": "Future Trunks",
+    "image": "https://preview.redd.it/does-anyone-know-which-episode-these-scene-is-from-v0-zci1hkbmku8b1.gif?format=png8&s=92f743e9481ef7a524334679bcf6df9339ea784b",
+    "form": "Super Saiyan",
+    "info": "Cell Games Saga",
+    "border": "#E59770"
+  },
+  {
     "powerlevel": "15 Billion",
     "name": "Future Trunks",
     "image": "https://static.wikia.nocookie.net/dragonball/images/0/00/Trunks_SS_Third_Grade.png/revision/latest?cb=20220817155928",
@@ -352,11 +424,19 @@
     "border": "#E59770"
   },
   {
-    "powerlevel": "500 Million",
+    "powerlevel": "800 Million",
     "name": "Vegeta",
     "image": "https://preview.redd.it/options-for-buu-saga-vegeta-v0-4zfdscypk9ce1.png?auto=webp&s=bb23e50dbef0e3a20d84fa4fa9a878b80dcd6dc5",
     "form": "Base",
     "info": "Buu Saga",
+    "border": "#E59770"
+  },
+  {
+    "powerlevel": "700 Million",
+    "name": "Piccolo",
+    "image": "https://static.wikia.nocookie.net/ultradragonball/images/e/e7/PiccoloBeforeFriezaAndCold.png/revision/latest/scale-to-width-down/340?cb=20110623221218",
+    "form": "Kami Absorbed",
+    "info": "Cell Games Saga",
     "border": "#E59770"
   },
   {
@@ -393,6 +473,14 @@
   },
   {
     "powerlevel": "400 Million",
+    "name": "Gohan",
+    "image": "https://preview.redd.it/how-powerful-would-gohan-be-in-the-buu-saga-if-he-didnt-v0-w5pgdzvu51qd1.jpeg?width=640&crop=smart&auto=webp&s=fd44982119e76811a1632d99b4c2f1441396df00",
+    "form": "Base",
+    "info": "Buu Saga",
+    "border": "#E59770"
+  },
+  {
+    "powerlevel": "400 Million",
     "name": "Android 18",
     "image": "https://static.wikia.nocookie.net/dragonball/images/4/4c/Android_18_watching_Piccolo_and_Android_17%27s_battle.png/revision/latest/scale-to-width-down/985?cb=20250409162638",
     "form": "Base",
@@ -400,12 +488,28 @@
     "border": "#E59770"
   },
   {
+    "powerlevel": "360 Million",
+    "name": "Goku",
+    "image": "https://i.ytimg.com/vi/4KemNmP8Rqg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBrTACG1eZqicgR9PdPcnL8GBk7Nw",
+    "form": "Base",
+    "info": "Broly The Legendary Super Saiyan",
+    "border": "#98B17B"
+  },
+  {
     "powerlevel": "350 Million",
     "name": "Cell",
     "image": "https://i.redd.it/nezlg7h7ert91.jpg",
     "form": "Impefect Form",
-    "info": "Android Saga",
+    "info": "Cell Saga",
     "border": "#E59770"
+  },
+  {
+    "powerlevel": "300 Million",
+    "name": "Broly",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/9/9d/Brolly22.jpg/revision/latest/scale-to-width-down/250?cb=20210105145923",
+    "form": "Supressed Super Saiyan",
+    "info": "Broly The Legendary Super Saiyan",
+    "border": "#98B17B"
   },
   {
     "powerlevel": "250 Million",
@@ -416,19 +520,27 @@
     "border": "#E59770"
   },
   {
+    "powerlevel": "240 Million",
+    "name": "Goku",
+    "image": "https://preview.redd.it/ssj-goku-post-heart-virus-pre-rosat-vs-ssj-vegeta-android-v0-po6dwqs4skpf1.jpg?width=640&crop=smart&auto=webp&s=3291e276d29fde0a27865ebb2db798fc80f36c64",
+    "form": "Super Saiyan",
+    "info": "Android Saga",
+    "border": "#E59770"
+  },
+  {
+    "powerlevel": "225 Million",
+    "name": "Goku",
+    "image": "https://pbs.twimg.com/media/E86tWVRXoAMyohe.jpg",
+    "form": "Super Saiyan",
+    "info": "Cooler's Revenge",
+    "border": "#98B17B"
+  },
+  {
     "powerlevel": "210 Million",
     "name": "Goku",
     "image": "https://pbs.twimg.com/media/Ec6AuDrWsAMU8CX.jpg",
     "form": "Super Saiyan",
     "info": "Future Trunks Saga",
-    "border": "#E59770"
-  },
-  {
-    "powerlevel": "205 Million",
-    "name": "Gohan",
-    "image": "https://preview.redd.it/how-powerful-would-gohan-be-in-the-buu-saga-if-he-didnt-v0-w5pgdzvu51qd1.jpeg?width=640&crop=smart&auto=webp&s=fd44982119e76811a1632d99b4c2f1441396df00",
-    "form": "Base",
-    "info": "Buu Saga",
     "border": "#E59770"
   },
   {
@@ -462,6 +574,14 @@
     "form": "Base",
     "info": "Android Saga",
     "border": "#E59770"
+  },
+  {
+    "powerlevel": "190 Million",
+    "name": "Cooler",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/b/b0/Cooler%27s_Revenge_-_Cooler_gloating_at_a_defeated_Goku.jpg/revision/latest/scale-to-width-down/985?cb=20240223034805",
+    "form": "Fifth Form",
+    "info": "Cooler's Revenge",
+    "border": "#98B17B"
   },
   {
     "powerlevel": "180 Million",
@@ -552,6 +672,14 @@
     "border": "#E59770"
   },
   {
+    "powerlevel": "4.5 Million",
+    "name": "Goku",
+    "image": "https://i.ytimg.com/vi/zrPBTNDfWB8/maxresdefault.jpg",
+    "form": "Base",
+    "info": "Cooler's Revenge",
+    "border": "#98B17B"
+  },
+  {
     "powerlevel": "4.2 Million",
     "name": "Goku",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw9onYLQlUK2Ub4FhUstG57Dg117XduHw7Nw&s",
@@ -568,9 +696,33 @@
     "border": "#E59770"
   },
   {
+    "powerlevel": "3.8 Million",
+    "name": "Cooler",
+    "image": "https://static.wikia.nocookie.net/dbzuniverse/images/6/6b/Cooler.jpeg/revision/latest/scale-to-width-down/259?cb=20130617165030",
+    "form": "Fourth Form",
+    "info": "Cooler's Revenge",
+    "border": "#98B17B"
+  },
+  {
+    "powerlevel": "3.2 Million",
+    "name": "Frieza",
+    "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/08/dragon-ball-every-version-of-frieza-final-form.jpg?q=50&fit=crop&w=825&dpr=1.5",
+    "form": "Suppressed Final Form",
+    "info": "Frieza Saga",
+    "border": "#E59770"
+  },
+  {
     "powerlevel": "3 Million",
     "name": "Goku",
     "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/7/73/74EEA25A-C135-46EA-BF65-C063B0D88BE1.jpg/revision/latest/scale-to-width-down/340?cb=20220224131635",
+    "form": "Base",
+    "info": "Frieza Saga",
+    "border": "#E59770"
+  },
+  {
+    "powerlevel": "2.5 Million",
+    "name": "Vegeta",
+    "image": "https://i.ytimg.com/vi/G8sDTjfDq_U/maxresdefault.jpg",
     "form": "Base",
     "info": "Frieza Saga",
     "border": "#E59770"
@@ -608,6 +760,14 @@
     "border": "#E59770"
   },
   {
+    "powerlevel": "530,000",
+    "name": "Vegeta",
+    "image": "https://i.redd.it/isvyuj7tnr4g1.jpeg",
+    "form": "Base",
+    "info": "Frieza Saga",
+    "border": "#E59770"
+  },
+  {
     "powerlevel": "180,000",
     "name": "Goku",
     "image": "https://static0.cbrimages.com/wordpress/wp-content/uploads/2020/07/Kaioken-on-Namek.jpg?q=50&fit=crop&w=825&dpr=1.5",
@@ -632,6 +792,14 @@
     "border": "#E59770"
   },
   {
+    "powerlevel": "10,000",
+    "name": "Bardock",
+    "image": "https://static.wikia.nocookie.net/dragonballupdates/images/5/53/GreatApeBardock1.jpg/revision/latest/scale-to-width-down/284?cb=20120221174225",
+    "form": "Great Ape",
+    "info": "Bardock - The Father of Goku",
+    "border": "#98B17B"
+  },
+  {
     "powerlevel": "90,000",
     "name": "Goku",
     "image": "https://i.redd.it/gxqm700cjtuf1.png",
@@ -640,9 +808,49 @@
     "border": "#E59770"
   },
   {
+    "powerlevel": "60,000",
+    "name": "Tien",
+    "image": "https://preview.redd.it/tien-needs-a-major-power-buff-he-or-possibly-roshi-is-the-v0-k0q3x63gpjl31.jpg?width=1000&format=pjpg&auto=webp&s=3d9477232c3023cf856f5bafcd10bb0cd6246a88",
+    "form": "Base",
+    "info": "Frieza Saga",
+    "border": "#E59770"
+  },
+  {
+    "powerlevel": "45,000",
+    "name": "Yamcha",
+    "image": "https://m.media-amazon.com/images/M/MV5BMDU1YTczOWYtYmNiOC00MGMwLTg5ZTctN2E2MWE5ZWJhYjI5XkEyXkFqcGc@._V1_.jpg",
+    "form": "Base",
+    "info": "Frieza Saga",
+    "border": "#E59770"
+  },
+  {
+    "powerlevel": "43,000",
+    "name": "Burter",
+    "image": "https://static.wikia.nocookie.net/teamfourstar/images/5/54/Burter.png/revision/latest?cb=20160608202120",
+    "form": "Base",
+    "info": "Ginyu Saga",
+    "border": "#E59770"
+  },
+  {
+    "powerlevel": "42,000",
+    "name": "Jeice",
+    "image": "https://static.wikia.nocookie.net/teamfourstar/images/a/a2/Jeice.png/revision/latest?cb=20160601201745",
+    "form": "Base",
+    "info": "Ginyu Saga",
+    "border": "#E59770"
+  },
+  {
     "powerlevel": "42,000",
     "name": "Nail",
     "image": "https://static.wikia.nocookie.net/disneythehunchbackofnotredame/images/5/5e/Tumblr_n3p18u7kr91qggwgeo1_1280.png/revision/latest?cb=20140927235351",
+    "form": "Base",
+    "info": "Ginyu Saga",
+    "border": "#E59770"
+  },
+  {
+    "powerlevel": "40,000",
+    "name": "Recoome",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/8/81/Recoome_gives_Goku_the_finger.jpg/revision/latest/scale-to-width-down/985?cb=20250314054709",
     "form": "Base",
     "info": "Ginyu Saga",
     "border": "#E59770"
@@ -657,6 +865,14 @@
   },
   {
     "powerlevel": "30,000",
+    "name": "Vegeta",
+    "image": "https://external-preview.redd.it/the-beginning-of-vegeta-vs-zarbon-has-always-been-one-of-my-v0-aHN4MDA2ZHl2ODNnMWqGvkOQTwZx1qjUydCYZarQAPHyhMFMr5vdExFrhCy9.png?format=pjpg&auto=webp&s=40c2c486d1253edc504f9775868e988e2a6a9351",
+    "form": "Base",
+    "info": "Namek Saga",
+    "border": "#E59770"
+  },
+  {
+    "powerlevel": "27,000",
     "name": "Zarbon",
     "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/1/1e/Zarbon_Monster_Form.png/revision/latest?cb=20230522145329",
     "form": "Monster Form",
@@ -726,6 +942,30 @@
     "form": "Base",
     "info": "Namek Saga",
     "border": "#E59770"
+  },
+  {
+    "powerlevel": "12,000",
+    "name": "Chiaotzu",
+    "image": "https://preview.redd.it/what-would-happen-to-chiaotzu-if-he-self-destructed-while-v0-rx785xc4mnld1.jpg?width=260&format=pjpg&auto=webp&s=657c5eeeabcf3b85745f970e8a7c280e9cce7b0d",
+    "form": "Base",
+    "info": "Frieza Saga",
+    "border": "#E59770"
+  },
+  {
+    "powerlevel": "10,000",
+    "name": "Guldo",
+    "image": "https://static.wikia.nocookie.net/teamfourstar/images/0/02/Guldo.png/revision/latest?cb=20160405230533",
+    "form": "Base",
+    "info": "Ginyu Saga",
+    "border": "#E59770"
+  },
+  {
+    "powerlevel": "10,000",
+    "name": "Bardock",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/0/08/Final_Spirit_Cannon.png/revision/latest/scale-to-width-down/985?cb=20250121192531",
+    "form": "Base",
+    "info": "Bardock - The Father of Goku",
+    "border": "#98B17B"
   },
   {
     "powerlevel": "8,000",
@@ -861,6 +1101,22 @@
     "image": "https://static.wikia.nocookie.net/teamfourstar/images/3/39/MasterRoshi.png/revision/latest/thumbnail/width/360/height/450?cb=20160405222915",
     "form": "Base",
     "info": "Raditz Saga",
+    "border": "#E59770"
+  },
+  {
+    "powerlevel": "10",
+    "name": "Goku",
+    "image": "https://i.redd.it/ekr3d36s2hs31.png",
+    "form": "Base",
+    "info": "Emperor Pilaf Saga",
+    "border": "#C6C485"
+  },
+  {
+    "powerlevel": "7",
+    "name": "Mr Satan",
+    "image": "https://static.wikia.nocookie.net/teamfourstar/images/8/8f/MrSatanDebutTFS.png/revision/latest?cb=20180107001839",
+    "form": "Base",
+    "info": "Cell Saga",
     "border": "#E59770"
   },
   {
