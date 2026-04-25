@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<h1 style="text-align:center">Dragon Ball All Power Levels</h1>
+<h1 style="text-align:center">Dragon Ball All Power Levels (SSJ 4 and SSJ Blue Multiplier 4 Million times base)</h1>
 
 <div id="character-container"></div>
 
@@ -14,7 +14,7 @@
     async function loadCharacters() {
         try {
             // Fetch the JSON file
-            const response = await fetch('data.json');
+            const response = await fetch('data_test.json');
             const characters = await response.json();
 
             const container = document.getElementById('character-container');
