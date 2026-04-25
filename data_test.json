@@ -736,12 +736,28 @@
     "border": "#E59770"
   },
   {
+    "powerlevel": "120 Billion",
+    "name": "Goku",
+    "image": "https://i.ytimg.com/vi/4KemNmP8Rqg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBrTACG1eZqicgR9PdPcnL8GBk7Nw",
+    "form": "Base",
+    "info": "Broly The Legendary Super Saiyan",
+    "border": "#98B17B"
+  },
+  {
     "powerlevel": "105 Billion",
     "name": "Future Trunks",
     "image": "https://static.wikia.nocookie.net/dragonball/images/0/00/Trunks_SS_Third_Grade.png/revision/latest?cb=20220817155928",
     "form": "Super Saiyan Grade 3",
     "info": "Cell Saga",
     "border": "#E59770"
+  },
+  {
+    "powerlevel": "100 Billion",
+    "name": "Broly",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/9/9d/Brolly22.jpg/revision/latest/scale-to-width-down/250?cb=20210105145923",
+    "form": "Supressed Super Saiyan",
+    "info": "Broly The Legendary Super Saiyan",
+    "border": "#98B17B"
   },
   {
     "powerlevel": "93.8 Billion",
@@ -816,28 +832,12 @@
     "border": "#E59770"
   },
   {
-    "powerlevel": "???",
-    "name": "Goku",
-    "image": "https://i.ytimg.com/vi/4KemNmP8Rqg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBrTACG1eZqicgR9PdPcnL8GBk7Nw",
-    "form": "Base",
-    "info": "Broly The Legendary Super Saiyan",
-    "border": "#98B17B"
-  },
-  {
     "powerlevel": "850 Million",
     "name": "Cell",
     "image": "https://i.redd.it/nezlg7h7ert91.jpg",
     "form": "Imperfect Form",
     "info": "Cell Saga",
     "border": "#E59770"
-  },
-  {
-    "powerlevel": "???",
-    "name": "Broly",
-    "image": "https://static.wikia.nocookie.net/dragonball/images/9/9d/Brolly22.jpg/revision/latest/scale-to-width-down/250?cb=20210105145923",
-    "form": "Supressed Super Saiyan",
-    "info": "Broly The Legendary Super Saiyan",
-    "border": "#98B17B"
   },
   {
     "powerlevel": "750 Million",
@@ -984,7 +984,7 @@
     "border": "#E59770"
   },
   {
-    "powerlevel": "???",
+    "powerlevel": "10 Million",
     "name": "Goku",
     "image": "https://i.ytimg.com/vi/zrPBTNDfWB8/maxresdefault.jpg",
     "form": "Base",
@@ -992,7 +992,7 @@
     "border": "#98B17B"
   },
   {
-    "powerlevel": "???",
+    "powerlevel": "6 Million",
     "name": "Goku",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw9onYLQlUK2Ub4FhUstG57Dg117XduHw7Nw&s",
     "form": "Base",
@@ -1000,7 +1000,7 @@
     "border": "#E59770"
   },
   {
-    "powerlevel": "???",
+    "powerlevel": "5 Million",
     "name": "Future Trunks",
     "image": "https://external-preview.redd.it/one-of-the-best-classic-og-transformation-in-anime-ssj-v0-MO2vZ_aoAp1owRuHEf0axLT9OyJsn7-88w_2pHaa9Lo.png?format=pjpg&auto=webp&s=145374e9e9381fc8c8da07dee6615d873360ab02",
     "form": "Base",
@@ -1008,7 +1008,7 @@
     "border": "#E59770"
   },
   {
-    "powerlevel": "???",
+    "powerlevel": "4.7 Million",
     "name": "Cooler",
     "image": "https://static.wikia.nocookie.net/dbzuniverse/images/6/6b/Cooler.jpeg/revision/latest/scale-to-width-down/259?cb=20130617165030",
     "form": "Fourth Form",
