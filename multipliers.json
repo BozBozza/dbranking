@@ -1,0 +1,50 @@
+[
+  {
+    "powerlevel": "4,000,000x",
+    "name": "Super Saiyan Blue",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/6/68/SSG_profile1.png/revision/latest?cb=20240712193623",
+    "form": "Goku",
+    "info": "Battle of Gods Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "80,000x",
+    "name": "Super Saiyan God",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/6/68/SSG_profile1.png/revision/latest?cb=20240712193623",
+    "form": "Goku",
+    "info": "Battle of Gods Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "400x",
+    "name": "Super Saiyan 3",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/c/c5/Super_saiyan_3.PNG/revision/latest?cb=20251227012927",
+    "form": "Goku",
+    "info": "Buu Saga",
+    "border": "#E59770"
+  },
+  {
+    "powerlevel": "100x",
+    "name": "Super Saiyan 2",
+    "image": "https://i.pinimg.com/736x/78/09/35/7809357a1be1410f5414f57815c1efef.jpg",
+    "form": "Gohan",
+    "info": "Cell Games Saga",
+    "border": "#E59770"
+  },
+  {
+    "powerlevel": "50x",
+    "name": "Super Saiyan",
+    "image": "https://static0.cbrimages.com/wordpress/wp-content/uploads/2025/01/9534e64a-8271-4028-991b-dda386aa1d5c.jpeg?q=49&fit=contain&w=750&h=422&dpr=2",
+    "form": "Goku",
+    "info": "Namek Saga",
+    "border": "#E59770"
+  },
+  {
+    "powerlevel": "10x",
+    "name": "Oozaru",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/5/50/Great_Ape_Gohan.png/revision/latest/scale-to-width-down/985?cb=20260106192751",
+    "form": "Goku",
+    "info": "Emperor Pilaf Saga",
+    "border": "#C6C485"
+  }
+]
