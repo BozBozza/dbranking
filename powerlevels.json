@@ -32,6 +32,14 @@
     "border": "#7982EA"
   },
   {
+    "powerlevel": "76.8 Decillion",
+    "name": "Gogeta",
+    "image": "https://i.redd.it/ab8uwru9hhnb1.jpg",
+    "form": "Super Saiyan 4",
+    "info": "Shadow Dragon Saga",
+    "border": "#B42B2B"
+  },
+  {
     "powerlevel": "23 Decillion",
     "name": "Gohan",
     "image": "https://www.comingsoon.net/wp-content/uploads/sites/3/2022/08/gohan-beast-super-hero.png",
@@ -62,14 +70,6 @@
     "form": "Super Full Power",
     "info": "Tournament of Power Saga",
     "border": "#7982EA"
-  },
-  {
-    "powerlevel": "30.8 Nonillion",
-    "name": "Gogeta",
-    "image": "https://i.redd.it/ab8uwru9hhnb1.jpg",
-    "form": "Super Saiyan 4",
-    "info": "Shadow Dragon Saga",
-    "border": "#B42B2B"
   },
   {
     "powerlevel": "7 Nonillion",
@@ -296,6 +296,22 @@
     "border": "#7982EA"
   },
   {
+    "powerlevel": "6.4 Octillion",
+    "name": "Vegeta",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAaaIdED1VFCe5oqvS7c8wPMI3fzM2X86XZw&s",
+    "form": "Super Saiyan 4",
+    "info": "Shadow Dragon Saga",
+    "border": "#B42B2B"
+  },
+  {
+    "powerlevel": "6.4 Octillion",
+    "name": "Goku",
+    "image": "https://i.pinimg.com/736x/6a/f4/66/6af4662a6429168a7e63911054057ce5.jpg",
+    "form": "Super Saiyan 4",
+    "info": "Shadow Dragon Saga",
+    "border": "#B42B2B"
+  },
+  {
     "powerlevel": "1.8 Octillion",
     "name": "Goku",
     "image": "https://i.redd.it/which-version-of-the-universe-6-saga-do-you-like-more-the-v0-fnqlude22smd1.jpg?width=1280&format=pjpg&auto=webp&s=5a03534be1da0bcc116e06f21bfda0bbbad38376",
@@ -392,11 +408,11 @@
     "border": "#7982EA"
   },
   {
-    "powerlevel": "51.2 Septillion",
-    "name": "Vegeta",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAaaIdED1VFCe5oqvS7c8wPMI3fzM2X86XZw&s",
+    "powerlevel": "80 Septillion",
+    "name": "Goku",
+    "image": "https://comicvine.gamespot.com/a/uploads/scale_super/11129/111297699/6361991-ga9.jpg",
     "form": "Super Saiyan 4",
-    "info": "Shadow Dragon Saga",
+    "info": "Super 17 Saga",
     "border": "#B42B2B"
   },
   {
@@ -544,11 +560,75 @@
     "border": "#7982EA"
   },
   {
+    "powerlevel": "1.6 Sextillion",
+    "name": "Goku",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy8ddAyEqLr9Vc3Fhu_HnnQdbytpGjHxUfGg&s",
+    "form": "Base",
+    "info": "Shadow Dragon Saga",
+    "border": "#B42B2B"
+  },
+  {
+    "powerlevel": "1.2 Sextillion",
+    "name": "Super 17",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/6/67/S17_infobox.PNG/revision/latest?cb=20251109135152",
+    "form": "Base",
+    "info": "Super 17 Saga",
+    "border": "#B42B2B"
+  },
+  {
+    "powerlevel": "1 Sextillion",
+    "name": "Goku",
+    "image": "https://comicvine.gamespot.com/a/uploads/original/11122/111225835/4885557-gt%20goku.jpg",
+    "form": "Super Saiyan",
+    "info": "Super 17 Saga",
+    "border": "#B42B2B"
+  },
+  {
+    "powerlevel": "80 Quintillion",
+    "name": "Vegeta",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXr1-zw3zqLnjwVpNrokZYmqIkrzJAJiEf3A&s",
+    "form": "Super Saiyan",
+    "info": "Super 17 Saga",
+    "border": "#B42B2B"
+  },
+  {
+    "powerlevel": "70 Quintillion",
+    "name": "Goku",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/d/d8/GokuGreatApeDBGT.png/revision/latest?cb=20240630080433",
+    "form": "Golden Great Ape",
+    "info": "Baby Saga",
+    "border": "#B42B2B"
+  },
+  {
+    "powerlevel": "64 Quintillion",
+    "name": "Baby",
+    "image": "https://nintendoeverything.com/wp-content/uploads/dragon-ball-xenoverse-super-baby-2.png",
+    "form": "Strongest Form 2",
+    "info": "Baby Saga",
+    "border": "#B42B2B"
+  },
+  {
+    "powerlevel": "62 Quintillion",
+    "name": "Uub",
+    "image": "https://static.wikia.nocookie.net/dragonballaffanon/images/2/2c/Majuub.jpg/revision/latest/thumbnail/width/360/height/360?cb=20110503020350",
+    "form": "Majin Form",
+    "info": "Baby Saga",
+    "border": "#B42B2B"
+  },
+  {
     "powerlevel": "46 Quintillion",
     "name": "Frost",
     "image": "https://preview.redd.it/should-all-of-frosts-forms-be-playable-characters-or-only-v0-aa6abhyprdad1.png?width=640&crop=smart&auto=webp&s=1b9aada7bd04b1b727ee08f3b088fa9271084b3e",
     "form": "Third Form",
     "info": "Universe 6 Tournament Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "48 Quintillion",
+    "name": "Goku",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/1/15/DragonBall25.png/revision/latest?cb=20151008013733",
+    "form": "Super Saiyan",
+    "info": "Battle of Gods Saga",
     "border": "#7982EA"
   },
   {
@@ -573,30 +653,6 @@
     "image": "https://ichef.bbci.co.uk/images/ic/640x360/p0cht1g2.jpg",
     "form": "Base",
     "info": "Universe 6 Tournament Saga",
-    "border": "#7982EA"
-  },
-  {
-    "powerlevel": "70 Quintillion",
-    "name": "Goku",
-    "image": "https://static.wikia.nocookie.net/dragonball/images/d/d8/GokuGreatApeDBGT.png/revision/latest?cb=20240630080433",
-    "form": "Golden Great Ape",
-    "info": "Baby Saga",
-    "border": "#B42B2B"
-  },
-  {
-    "powerlevel": "64 Quintillion",
-    "name": "Baby",
-    "image": "https://nintendoeverything.com/wp-content/uploads/dragon-ball-xenoverse-super-baby-2.png",
-    "form": "Strongest Form 2",
-    "info": "Baby Saga",
-    "border": "#B42B2B"
-  },
-  {
-    "powerlevel": "48 Quintillion",
-    "name": "Goku",
-    "image": "https://static.wikia.nocookie.net/dragonball/images/1/15/DragonBall25.png/revision/latest?cb=20151008013733",
-    "form": "Super Saiyan",
-    "info": "Battle of Gods Saga",
     "border": "#7982EA"
   },
   {
