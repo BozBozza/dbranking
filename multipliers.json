@@ -1,11 +1,75 @@
 [
   {
+    "powerlevel": "533.3 Trillion x",
+    "name": "Beast Form",
+    "image": "https://preview.redd.it/thoughts-on-beast-gohan-v0-p0rh2wqyq51c1.jpg?auto=webp&s=2b91ca3ce1bc9e95c1fe701f4835fb9210301338",
+    "form": "Gohan",
+    "info": "Superhero Movie",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "210 Trillion x",
+    "name": "Mastered Ultra Instinct",
+    "image": "https://dk2dv4ezy246u.cloudfront.net/widgets/sLg5PFrjWTC_large.jpg",
+    "form": "Goku",
+    "info": "Tournament of Power Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "70 Trillion x",
+    "name": "Ultra Instinct Sign",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/c/c4/REACTIVATOR.png/revision/latest/scale-to-width-down/985?cb=20180220031807",
+    "form": "Goku",
+    "info": "Tournament of Power Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "60 Trillion x",
+    "name": "Super Saiyan Rage",
+    "image": "https://preview.redd.it/trunks-super-saiyan-rage-is-good-people-aplaud-when-gohan-v0-qfv4vz1fkqjb1.jpg?width=6912&format=pjpg&auto=webp&s=f00d390f9c4c46f6dc1708f046315a1555c6ed59",
+    "form": "Future Trunks",
+    "info": "Future Trunks Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "640,000,000x",
+    "name": "Full Power Super Saiyan 4",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/6/64/Fully-powered_Super_Saiyan_4_Goku.png/revision/latest/scale-to-width-down/732?cb=20240629221841",
+    "form": "Goku",
+    "info": "Baby Saga",
+    "border": "#B42B2B"
+  },
+  {
+    "powerlevel": "5,000,000x",
+    "name": "Super Saiyan Beserk",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/9/96/LSS_Kale_infobox.PNG/revision/latest/scale-to-width/360?cb=20210709122045",
+    "form": "Kale",
+    "info": "Tournament of Power Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "4,000,000x",
+    "name": "Super Saiyan 4",
+    "image": "https://static.wikia.nocookie.net/ultradragonball/images/d/d0/Goku_ssj4_gt-opening.jpg/revision/latest?cb=20110617224210",
+    "form": "Goku",
+    "info": "Baby Saga",
+    "border": "#B42B2B"
+  },
+  {
     "powerlevel": "4,000,000x",
     "name": "Super Saiyan Blue",
-    "image": "https://static.wikia.nocookie.net/dragonball/images/6/68/SSG_profile1.png/revision/latest?cb=20240712193623",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/1/12/SSGSS_GOKU.png/revision/latest/scale-to-width-down/985?cb=20151025084338",
     "form": "Goku",
-    "info": "Battle of Gods Saga",
+    "info": "Resurrection F Saga",
     "border": "#7982EA"
+  },
+  {
+    "powerlevel": "1,000,000x",
+    "name": "Legendary Super Saiyan",
+    "image": "https://geekireland.com/wp-content/uploads/2017/01/broly-beating-up-Goku-1024x576.png",
+    "form": "Broly",
+    "info": "Broly The Legendary Super Saiyan",
+    "border": "#98B17B"
   },
   {
     "powerlevel": "80,000x",
@@ -16,10 +80,34 @@
     "border": "#7982EA"
   },
   {
+    "powerlevel": "50,000x",
+    "name": "Full Power Super Saiyan",
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/13742077/dragon_ball_super_broly_cinema_list_philippines.jpg?w=1200&h=675&fit=crop",
+    "form": "Broly",
+    "info": "Broly Movie",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "4,000x",
+    "name": "Golden Great Ape",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/b/b9/Golden_Great_Ape.jpg/revision/latest?cb=20240630143211",
+    "form": "Goku",
+    "info": "Baby Saga",
+    "border": "#B42B2B"
+  },
+  {
     "powerlevel": "400x",
     "name": "Super Saiyan 3",
     "image": "https://static.wikia.nocookie.net/dragonball/images/c/c5/Super_saiyan_3.PNG/revision/latest?cb=20251227012927",
     "form": "Goku",
+    "info": "Buu Saga",
+    "border": "#E59770"
+  },
+  {
+    "powerlevel": "355.6x",
+    "name": "Ultimate Form",
+    "image": "https://static0.cbrimages.com/wordpress/wp-content/uploads/2019/10/ultimate-gohan-dragon-ball-z-e1571776688500.jpg?q=50&fit=crop&w=825&dpr=1.5",
+    "form": "Gohan",
     "info": "Buu Saga",
     "border": "#E59770"
   },
@@ -36,7 +124,7 @@
     "name": "Super Saiyan",
     "image": "https://static0.cbrimages.com/wordpress/wp-content/uploads/2025/01/9534e64a-8271-4028-991b-dda386aa1d5c.jpeg?q=49&fit=contain&w=750&h=422&dpr=2",
     "form": "Goku",
-    "info": "Namek Saga",
+    "info": "Frieza Saga",
     "border": "#E59770"
   },
   {
@@ -46,5 +134,21 @@
     "form": "Goku",
     "info": "Emperor Pilaf Saga",
     "border": "#C6C485"
+  },
+  {
+    "powerlevel": "3x",
+    "name": "Max Power",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/e/e0/BuffRoshi%28PtP%29.png/revision/latest?cb=20170507163853",
+    "form": "Master Roshi",
+    "info": "Emperor Pilaf Saga",
+    "border": "#C6C485"
+  },
+  {
+    "powerlevel": "1.2x",
+    "name": "Monster Form",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/1/1b/ZarbonTransformsVsVegetaNV.png/revision/latest/scale-to-width-down/985?cb=20180412031826",
+    "form": "Zarbon",
+    "info": "Namek Saga",
+    "border": "#E59770"
   }
 ]
