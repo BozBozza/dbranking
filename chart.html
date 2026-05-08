@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Massive Scale Power Tracker</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: sans-serif; background: #121212; color: white; padding: 40px; }
+        .container { width: 90%; max-width: 1000px; margin: auto; background: #1e1e1e; padding: 20px; border-radius: 10px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <canvas id="hugeChart"></canvas>
+</div>
+
+<script>
+    // 1. DATA PARSER: Handles everything from "100" to "Vigintillion"
+    function parseBigNumber(str) {
+        if (!str) return 0;
+
+        const suffixes = {
+            'million': 1e6,
+            'billion': 1e9,
+            'trillion': 1e12,
+            'quadrillion': 1e15,
+            'quintillion': 1e18,
+            'sextillion': 1e21,
+            'septillion': 1e24,
+            'octillion': 1e27,
+            'nonillion': 1e30,
+            'decillion': 1e33,
+            'undecillion': 1e36,
+            'duodecillion': 1e39,
+            'tredecillion': 1e42,
+            'quattuordecillion': 1e45,
+            'quindecillion': 1e48,
+            'sexdecillion': 1e51,
+            'septendecillion': 1e54,
+            'octodecillion': 1e57,
+            'novemdecillion': 1e60,
+            'vigintillion': 1e63
+        };
+
+        const parts = str.trim().toLowerCase().split(' ');
+        const numberPart = parseFloat(parts[0].replace(/,/g, '')); // Handles "1,000"
+        const suffixPart = parts[1];
+
+        if (suffixPart && suffixes[suffixPart]) {
+            return numberPart * suffixes[suffixPart];
+        }
+        return numberPart;
+    }
+
+    async function buildChart() {
+        try {
+            const response = await fetch('powerlevels.json');
+            const data = await response.json();
+
+            const labels = data.map(item => item.info);
+            const levels = data.map(item => parseBigNumber(item.powerlevel));
+            const names = data.map(item => item.name);
+            const originalStrings = data.map(item => item.powerlevel); // Keep original text for tooltips
+
+            const ctx = document.getElementById('hugeChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Power Level',
+                        data: levels,
+                        borderColor: '#ff4757',
+                        backgroundColor: 'rgba(255, 71, 87, 0.2)',
+                        fill: true,
+                        pointRadius: 6
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            type: 'logarithmic', // CRITICAL: Allows viewing 100 vs 1 Vigintillion
+                            title: { display: true, text: 'Power Level (Log Scale)', color: '#fff' },
+                            ticks: { color: '#888' },
+                            grid: { color: '#333' }
+                        },
+                        x: { ticks: { color: '#888' }, grid: { color: '#333' } }
+                    },
+                    plugins: {
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    const index = context.dataIndex;
+                                    return `${names[index]}: ${originalStrings[index]}`;
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        } catch (e) { console.error("Data error:", e); }
+    }
+
+    buildChart();
+</script>
+</body>
+</html>

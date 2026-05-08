@@ -46,12 +46,14 @@ body {
     margin: 1px;
 }
 
-  .button-link {
-    display: inline-block;
+.button-link {
+    display: flex;
+    justify-content: center;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #ea841b;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
-    font-family: sans-serif;
-  }
+    border-radius: 10px;
+    margin-left: 47.5%;
+    margin-right: 47.5%;
+}
