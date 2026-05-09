@@ -1552,6 +1552,14 @@
     "border": "#E59770"
   },
   {
+    "powerlevel": "14.1 Trillion",
+    "name": "Android 13",
+    "image": "https://static0.cbrimages.com/wordpress/wp-content/uploads/2018/03/super-android-13.jpg",
+    "form": "Android 14 + 15 Absorbed",
+    "info": "Super Android 13",
+    "border": "#98B17B"
+  },
+  {
     "powerlevel": "13.8 Trillion",
     "name": "Kid Goku",
     "image": "https://static0.cbrimages.com/wordpress/wp-content/uploads/2024/11/b46c5e66-4811-4ece-9139-264879f5a614.jpeg",
@@ -1590,6 +1598,14 @@
     "form": "Base",
     "info": "Daima Saga",
     "border": "#9E64E0"
+  },
+  {
+    "powerlevel": "10 Trillion",
+    "name": "Cooler",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/6/6e/The_Return_of_Cooler_-_A_new_Meta-Cooler_appears_before_Goku_%26_Vegeta.png/revision/latest?cb=20230626184623",
+    "form": "Metal Form",
+    "info": "The Return of Cooler",
+    "border": "#98B17B"
   },
   {
     "powerlevel": "8.5 Trillion",
@@ -1800,6 +1816,14 @@
     "border": "#98B17B"
   },
   {
+    "powerlevel": "110 Billion",
+    "name": "Android 13",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/1/15/Android_13_4x3.png/revision/latest/scale-to-width-down/985?cb=20240906122530",
+    "form": "Base",
+    "info": "Super Android 13",
+    "border": "#98B17B"
+  },
+  {
     "powerlevel": "105 Billion",
     "name": "Future Trunks",
     "image": "https://static.wikia.nocookie.net/dragonball/images/0/00/Trunks_SS_Third_Grade.png/revision/latest?cb=20220817155928",
@@ -1854,6 +1878,38 @@
     "form": "Base",
     "info": "Daima Saga",
     "border": "#9E64E0"
+  },
+  {
+    "powerlevel": "38 Billion",
+    "name": "Vegeta",
+    "image": "https://m.media-amazon.com/images/M/MV5BNWFhMWQ1MGEtNzM1YS00OTMzLWIwOGMtM2Y0YmJlOTczZDIxXkEyXkFqcGc@._V1_.jpg",
+    "form": "Base",
+    "info": "Super Android 13",
+    "border": "#98B17B"
+  },
+  {
+    "powerlevel": "36 Billion",
+    "name": "Future Trunks",
+    "image": "https://www.tvguide.com/a/img/catalog/provider/2/13/2-8c4cf7356d8426d9aced66078ef05fdf.jpg",
+    "form": "Base",
+    "info": "Super Android 13",
+    "border": "#98B17B"
+  },
+  {
+    "powerlevel": "32 Billion",
+    "name": "Android 14",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/9/99/A-14.jpg/revision/latest/thumbnail/width/360/height/360?cb=20081128213355",
+    "form": "Base",
+    "info": "Super Android 13",
+    "border": "#98B17B"
+  },
+  {
+    "powerlevel": "32 Billion",
+    "name": "Android 15",
+    "image": "https://static.wikia.nocookie.net/teamfourstar/images/9/9a/Android_15.png/revision/latest/scale-to-width-down/570?cb=20160502224235",
+    "form": "Base",
+    "info": "Super Android 13",
+    "border": "#98B17B"
   },
   {
     "powerlevel": "21.8 Billion",
@@ -2169,6 +2225,22 @@
     "border": "#E59770"
   },
   {
+    "powerlevel": "2.5 Million",
+    "name": "Goku",
+    "image": "https://www.kanzenshuu.com/wp-content/uploads/2023/07/rumor-kaioken100-featured.jpg",
+    "form": "Kaioken x100",
+    "info": "Lord Slug",
+    "border": "#98B17B"
+  },
+  {
+    "powerlevel": "2.2 Million",
+    "name": "Lord Slug",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/a/af/Lord_Slug_-_Goku_realizes_Lord_Slug_is_a_Namekian.png/revision/latest/scale-to-width-down/985?cb=20210520212402",
+    "form": "Great Namekian",
+    "info": "Lord Slug",
+    "border": "#98B17B"
+  },
+  {
     "powerlevel": "2 Million",
     "name": "Frieza",
     "image": "https://preview.redd.it/moveset-wishlist-frieza-third-form-v0-70alias6wcoc1.jpg?width=640&crop=smart&auto=webp&s=74e316990f4260e55e13bd8185805d0476f544ee",
@@ -2201,6 +2273,14 @@
     "border": "#98B17B"
   },
   {
+    "powerlevel": "625,000",
+    "name": "Goku",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/2/28/Pseudo_Super_Saiyan.png/revision/latest?cb=20210520192924",
+    "form": "Pseudo Super Saiyan",
+    "info": "Lord Slug",
+    "border": "#98B17B"
+  },
+  {
     "powerlevel": "530,000",
     "name": "Frieza",
     "image": "https://i.redd.it/moveset-wishlist-frieza-first-form-v0-kpbaahlnvwnc1.jpg?width=385&format=pjpg&auto=webp&s=517d541ca3151b2f7feede0fe82281b3789e23ad",
@@ -2222,6 +2302,14 @@
     "image": "https://static0.cbrimages.com/wordpress/wp-content/uploads/2025/03/dragon-ball-z-the-tree-of-might-goku-uses-kaio-ken.jpg?q=70&fit=crop&w=825&dpr=1",
     "form": "Kaioken x20",
     "info": "The Tree of Might",
+    "border": "#98B17B"
+  },
+  {
+    "powerlevel": "440,000",
+    "name": "Lord Slug",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/b/bd/Lord_Slug_-_Lord_Slug_regenerates_his_arm.png/revision/latest/scale-to-width-down/985?cb=20210520212304",
+    "form": "Base",
+    "info": "Lord Slug",
     "border": "#98B17B"
   },
   {

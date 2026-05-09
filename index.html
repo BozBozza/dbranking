@@ -8,36 +8,74 @@
 
 <h1 style="text-align:center">Dragon Ball All Power Levels</h1>
 
-<a href="chart.html" class="button-link">Multipliers</a>
+<a href="multipliers.html" class="button-link">Multipliers</a>
+
+<div id="database-display"></div>
+
+<div id="filter-menu"></div>
 
 <div id="character-container"></div>
 
+
 <script>
+    let allCharacters = []; // Global storage for the full list
+
     async function loadCharacters() {
         try {
-            // Fetch the JSON file
             const response = await fetch('powerlevels.json');
-            const characters = await response.json();
+            allCharacters = await response.json();
 
-            const container = document.getElementById('character-container');
+            // 1. Create the filter buttons dynamically based on 'info'
+            createFilterMenu();
 
-            // Map the data into HTML strings
-            container.innerHTML = characters.map(char => `
-                    <div class="character-card" style="border:3px solid ${char.border};">
-                    <span class="powerlevel">${char.powerlevel}</span>
-                        <img src="${char.image}" style="border:3px solid ${char.border};">
-                        <h2>${char.name}</h2>
-                        <p>${char.form}</p>
-                        <p>${char.info}</p>
-                    </div>
-                `).join('');
+            // 2. Initial display of all characters
+            renderDisplay(allCharacters);
 
         } catch (error) {
             console.error("Error loading characters:", error);
         }
     }
 
-    // Run the function
+    function createFilterMenu() {
+        const menu = document.getElementById('filter-menu');
+
+        // Get unique 'info' values from your JSON
+        const categories = [...new Set(allCharacters.map(char => char.info))];
+
+        // Add an "All" button
+        let menuHTML = `<button class="filter-btn" onclick="filterData('all')">Show All</button>`;
+
+        // Add a button for each category found
+        menuHTML += categories.map(cat => `
+            <button class="filter-btn" onclick="filterData('${cat}')">${cat}</button>
+        `).join('');
+
+        menu.innerHTML = menuHTML;
+    }
+
+    function filterData(category) {
+        if (category === 'all') {
+            renderDisplay(allCharacters);
+        } else {
+            const filtered = allCharacters.filter(char => char.info === category);
+            renderDisplay(filtered);
+        }
+    }
+
+    function renderDisplay(dataToShow) {
+        const container = document.getElementById('character-container');
+
+        container.innerHTML = dataToShow.map(char => `
+            <div class="character-card" style="border:3px solid ${char.border};">
+                <span class="powerlevel">${char.powerlevel}</span>
+                <img src="${char.image}" style="border:3px solid ${char.border};">
+                <h2>${char.name}</h2>
+                <p>${char.form}</p>
+                <p>${char.info}</p>
+            </div>
+        `).join('');
+    }
+
     loadCharacters();
 </script>
 </body>
