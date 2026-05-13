@@ -8,9 +8,7 @@
 
 <h1 style="text-align:center">Dragon Ball All Power Levels</h1>
 
-<a href="multipliers.html" class="button-link">Multipliers</a>
-
-<div id="database-display"></div>
+<a href="multipliers.html" class="button-link">Multipliers</a><br></br>
 
 <div id="filter-menu"></div>
 
@@ -18,19 +16,14 @@
 
 
 <script>
-    let allCharacters = []; // Global storage for the full list
+    let allCharacters = [];
 
     async function loadCharacters() {
         try {
             const response = await fetch('powerlevels.json');
             allCharacters = await response.json();
-
-            // 1. Create the filter buttons dynamically based on 'info'
             createFilterMenu();
-
-            // 2. Initial display of all characters
             renderDisplay(allCharacters);
-
         } catch (error) {
             console.error("Error loading characters:", error);
         }
@@ -38,18 +31,57 @@
 
     function createFilterMenu() {
         const menu = document.getElementById('filter-menu');
-
-        // Get unique 'info' values from your JSON
-        const categories = [...new Set(allCharacters.map(char => char.info))];
-
-        // Add an "All" button
+        const orderedCategories = [
+            'Shadow Dragon Saga',
+            'Super 17 Saga',
+            'Baby Saga',
+            'Black Star Dragonball Saga',
+            'End of Z Saga',
+            'Superhero Movie',
+            'Broly Movie',
+            'Tournament of Power Saga',
+            'Future Trunks Saga',
+            'Universe 6 Tournament Saga',
+            'Resurrection F Saga',
+            'Battle of Gods Saga',
+            'Daima Saga',
+            'Wrath of the Dragon',
+            'Fusion Saga',
+            'Buu Saga',
+            'Broly - Second Coming',
+            'Bojack Unbound',
+            'Other World Tournament Saga',
+            'Cell Games Saga',
+            'Broly The Legendary Super Saiyan',
+            'Super Android 13',
+            'The Return of Cooler',
+            'Cell Saga',
+            'Android Saga',
+            'Coolers Revenge',
+            'Trunks Saga',
+            'The History of Trunks',
+            'Garlic Jr Saga',
+            'Frieza Saga',
+            'Lord Slug',
+            'Namek Saga',
+            'The Tree of Might',
+            'The Worlds Strongest',
+            'Saiyan Saga',
+            'Raditz Saga',
+            'Dead Zone',
+            'Piccolo Jr Saga',
+            'King Piccolo Saga',
+            'Tien Shinhan Saga',
+            'Fortuneteller Baba Saga',
+            'Red Ribbon Army Saga',
+            'Tournament Saga',
+            'Emperor Pilaf Saga',
+            'Bardock - The Father of Goku',
+        ]
         let menuHTML = `<button class="filter-btn" onclick="filterData('all')">Show All</button>`;
-
-        // Add a button for each category found
-        menuHTML += categories.map(cat => `
+        menuHTML += orderedCategories.map(cat => `
             <button class="filter-btn" onclick="filterData('${cat}')">${cat}</button>
         `).join('');
-
         menu.innerHTML = menuHTML;
     }
 
