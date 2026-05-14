@@ -1,5 +1,93 @@
 [
   {
+    "powerlevel": "10 Sexdecillion",
+    "name": "Frieza",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/e/ea/Black_Frieza_defeats_Goku_%26_Vegeta_%28manga%29.png/revision/latest/scale-to-width-down/985?cb=20230601205318",
+    "form": "Black Form",
+    "info": "Granolah Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "1.6 Sexdecillion",
+    "name": "Gas",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/7/77/Aged_Gas_bulks_up_to_further_empower_himself_%28manga%29.png/revision/latest/scale-to-width-down/985?cb=20230603212736",
+    "form": "Inner Nature Unleashed",
+    "info": "Granolah Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "450 Quindecillion",
+    "name": "Goku",
+    "image": "https://i.pinimg.com/736x/d8/f8/69/d8f869cd38be8d98e4555fd1a3c62a37.jpg",
+    "form": "True Ultra Instinct",
+    "info": "Granolah Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "320 Quindecillion",
+    "name": "Gas",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRND-jmJ29qS6dE5Pug_2-KL4VF6vwseEqQ5Q&s",
+    "form": "Awakened Form",
+    "info": "Granolah Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "280 Quindecillion",
+    "name": "Granolah",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/e/e6/Granolah_with_dual_Evolved_Eyes_%28manga%29.png/revision/latest/scale-to-width-down/250?cb=20220908202130",
+    "form": "Evolved Right Eye",
+    "info": "Granolah Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "207.9 Quindecillion",
+    "name": "Goku",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUBe7qTxfN43Hf5SnRb7ms1DcEtSMRhwpo5Q&s",
+    "form": "Mastered Ultra Instinct",
+    "info": "Superhero Movie",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "200 Quindecillion",
+    "name": "Gohan",
+    "image": "https://www.comingsoon.net/wp-content/uploads/sites/3/2022/08/gohan-beast-super-hero.png",
+    "form": "Beast Form",
+    "info": "Superhero Movie",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "160 Quindecillion",
+    "name": "Gas",
+    "image": "https://static0.cbrimages.com/wordpress/wp-content/uploads/2024/09/gas-from-dragon-ball-super.jpg?q=49&fit=crop&w=825&dpr=2",
+    "form": "Powered-Up Form",
+    "info": "Granolah Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "150 Quindecillion",
+    "name": "Vegeta",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2sjcuJ4PBl-uS48ZWxwvM_ev62aLxhavk3A&s",
+    "form": "Ultra Ego",
+    "info": "Granolah Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "150 Quindecillion",
+    "name": "Goku",
+    "image": "https://i.pinimg.com/736x/be/79/e4/be79e467bcec22c1f383ddcc4fc40d0c.jpg",
+    "form": "Mastered Ultra Instinct",
+    "info": "Granolah Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "140 Quindecillion",
+    "name": "Granolah",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/0/0b/Granolah_charging_his_Finger_Beam_%28manga%29.png/revision/latest/scale-to-width-down/340?cb=20220320102852",
+    "form": "Powered-Up Form",
+    "info": "Granolah Saga",
+    "border": "#7982EA"
+  },
+  {
     "powerlevel": "13.2 Tredecillion",
     "name": "Gogeta",
     "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/12/ultimate-kamehameha-gogeta.jpg?q=49&fit=contain&w=1649&h=900&dpr=2",
@@ -8,15 +96,15 @@
     "border": "#7982EA"
   },
   {
-    "powerlevel": "34.5 Duodecillion",
-    "name": "Gohan",
-    "image": "https://www.comingsoon.net/wp-content/uploads/sites/3/2022/08/gohan-beast-super-hero.png",
-    "form": "Beast Form",
-    "info": "Superhero Movie",
+    "powerlevel": "60 Duodecillion",
+    "name": "Vegeta",
+    "image": "https://i.redd.it/tr4u9bs643gd1.jpeg",
+    "form": "Super Saiyan Blue Evolved",
+    "info": "Granolah Saga",
     "border": "#7982EA"
   },
   {
-    "powerlevel": "5 Duodecillion",
+    "powerlevel": "50 Duodecillion",
     "name": "Broly",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8-YGX2HbD3Z1D5YrLiZ6yTOicuSDL-zbncg&s",
     "form": "Full Power Super Saiyan",
@@ -24,7 +112,7 @@
     "border": "#7982EA"
   },
   {
-    "powerlevel": "1 Duodecillion",
+    "powerlevel": "20 Duodecillion",
     "name": "Cell Max",
     "image": "https://i.redd.it/qmvjb0cd5a1b1.jpg",
     "form": "Base",
@@ -32,11 +120,75 @@
     "border": "#7982EA"
   },
   {
-    "powerlevel": "600 Undecillion",
+    "powerlevel": "10.5 Duodecillion",
+    "name": "Goku",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqoPiLlatFvrqDYz4l0etf48RWRmND9Pu_Nw&s",
+    "form": "Mastered Ultra Instinct",
+    "info": "Galactic Patrol Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "10 Duodecillion",
+    "name": "Moro",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB07gurLISzmKEF_lHJH2APkvhs92TnREkJw&s",
+    "form": "Merus Absorbed",
+    "info": "Galactic Patrol Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "9 Duodecillion",
     "name": "Piccolo",
     "image": "https://static.wikia.nocookie.net/dragonuniverse/images/0/0c/Orange_Piccolo.png/revision/latest?cb=20250124141057",
     "form": "Orange Form",
     "info": "Superhero Movie",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "5.5 Duodecillion",
+    "name": "Merus",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/050/43814.jpg?v=1647645971",
+    "form": "Base",
+    "info": "Galactic Patrol Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "4.5 Duodecillion",
+    "name": "Moro",
+    "image": "https://i.pinimg.com/736x/f4/52/c8/f452c836c7aa9c5f851dfd086af1994a.jpg",
+    "form": "Seven Three Absorbed",
+    "info": "Galactic Patrol Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "3.5 Duodecillion",
+    "name": "Goku",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/d/df/DBS_64_01.png/revision/latest?cb=20210303164754",
+    "form": "Ultra Instinct Sign",
+    "info": "Galactic Patrol Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "3.3 Duodecillion",
+    "name": "Moro",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/8/80/Moro%27s_youth_restored_%28manga%29.png/revision/latest/scale-to-width-down/787?cb=20210817150303",
+    "form": "Base",
+    "info": "Galactic Patrol Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "3 Duodecillion",
+    "name": "Goku",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLdaNsxaSrIk949-HOsVD0cpSct6t_2gJRCQ&s",
+    "form": "Super Saiyan Blue",
+    "info": "Granolah Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "1 Duodecillion",
+    "name": "Vegeta",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/f/fb/DBS_66_06.png/revision/latest/scale-to-width-down/732?cb=20220322141544",
+    "form": "Super Saiyan Blue Evolved",
+    "info": "Galactic Patrol Saga",
     "border": "#7982EA"
   },
   {
@@ -45,6 +197,38 @@
     "image": "https://static.wikia.nocookie.net/dragonball/images/8/80/Supersmirk.png/revision/latest/scale-to-width-down/985?cb=20240922192911",
     "form": "Super Saiyan",
     "info": "Broly Movie",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "52 Undecillion",
+    "name": "Gohan",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/0/08/Super_Hero_-_Ultimate_Gohan.png/revision/latest/scale-to-width-down/985?cb=20240527052024",
+    "form": "Ultimate Form",
+    "info": "Superhero Movie",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "50 Undecillion",
+    "name": "Gamma 1",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/1/15/DBS_SH_Gamma_1.png/revision/latest/scale-to-width-down/732?cb=20220817225001",
+    "form": "Base",
+    "info": "Superhero Movie",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "50 Undecillion",
+    "name": "Gamma 2",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/e/e2/DBS_SH_Gamma_2_Final_Act.png/revision/latest?cb=20220817225020",
+    "form": "Base",
+    "info": "Superhero Movie",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "45 Undecillion",
+    "name": "Piccolo",
+    "image": "https://preview.redd.it/name-piccolos-new-form-wrong-answers-only-v0-bx9n0wscf0291.jpg?auto=webp&s=594ffe2cc8d9b86680fec5f69912c1a9809bd563",
+    "form": "Potential Unlocked",
+    "info": "Superhero Movie",
     "border": "#7982EA"
   },
   {
@@ -65,6 +249,14 @@
   },
   {
     "powerlevel": "1 Undecillion",
+    "name": "Vegeta",
+    "image": "https://static0.cbrimages.com/wordpress/wp-content/uploads/2022/08/Dragon-Ball-Super-Super-Hero-Vegeta-Sparring.jpg?q=70&fit=contain&w=750&h=422&dpr=1",
+    "form": "Base",
+    "info": "Superhero Movie",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "1 Undecillion",
     "name": "Goku",
     "image": "https://preview.redd.it/hot-take-i-loved-how-goku-used-his-rage-with-mastered-ultra-v0-8ifuspekl5xb1.png?width=1451&format=png&auto=webp&s=c345f0babcd4144cd575549daa229c2bac3cf5ce",
     "form": "Mastered Ultra Instinct",
@@ -77,6 +269,14 @@
     "image": "https://preview.redd.it/could-jiren-have-defeated-moro-if-they-were-to-fight-v0-yzavgigmxcwf1.jpg?width=739&format=pjpg&auto=webp&s=b4065b4b913bfab8579cebc1b998942440bfd253",
     "form": "Super Full Power",
     "info": "Tournament of Power Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "990 Decillion",
+    "name": "Goku",
+    "image": "https://static0.cbrimages.com/wordpress/wp-content/uploads/2022/06/Dragon-ball-Super-Hero-Goku-2.jpg?q=50&fit=crop&w=825&dpr=1.5",
+    "form": "Base",
+    "info": "Superhero Movie",
     "border": "#7982EA"
   },
   {
@@ -176,6 +376,30 @@
     "border": "#B42B2B"
   },
   {
+    "powerlevel": "700 Octillion",
+    "name": "Buu",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX06mtQXScsGEgWRZ7YRHPAf0-3urzT6NPhw&s",
+    "form": "Grand Supreme Kai Absorbed",
+    "info": "Galactic Patrol Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "500 Octillion",
+    "name": "Moro",
+    "image": "https://pbs.twimg.com/media/GDFOyCaWEAAk0GG.jpg",
+    "form": "Restored Form",
+    "info": "Galactic Patrol Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "440 Octillion",
+    "name": "Vegeta",
+    "image": "https://i.redd.it/vegeta-blue-evolution-moro-saga-vs-jiren-v0-aanzouczyoqg1.jpg?width=295&format=pjpg&auto=webp&s=92445908ec082dfe27702a0c7b1bf41fa6cb743f",
+    "form": "Super Saiyan Blue Evolved",
+    "info": "Galactic Patrol Saga",
+    "border": "#7982EA"
+  },
+  {
     "powerlevel": "400 Octillion",
     "name": "Vegeta",
     "image": "https://static.wikia.nocookie.net/dragonball/images/9/95/SSGSSEvo_Vegeta_full_aura.png/revision/latest/scale-to-width-down/1200?cb=20201220102818",
@@ -232,35 +456,27 @@
     "border": "#7982EA"
   },
   {
+    "powerlevel": "50 Octillion",
+    "name": "Goku",
+    "image": "https://images.gamebanana.com/img/ss/requests/6711ce0ce4b91.jpg",
+    "form": "Base",
+    "info": "Galactic Patrol Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "40 Octillion",
+    "name": "Saganbo",
+    "image": "https://i.ytimg.com/vi/DtpeBXZgsls/maxresdefault.jpg",
+    "form": "Powered-Up",
+    "info": "Galactic Patrol Saga",
+    "border": "#7982EA"
+  },
+  {
     "powerlevel": "30 Octillion",
     "name": "Dyspo",
     "image": "https://static.wikia.nocookie.net/dragonball/images/b/be/Max_Light_Speed_Dyspo.png/revision/latest?cb=20180121125731",
     "form": "Super Light Speed Mode",
     "info": "Tournament of Power Saga",
-    "border": "#7982EA"
-  },
-  {
-    "powerlevel": "23 Octillion",
-    "name": "Gohan",
-    "image": "https://static.wikia.nocookie.net/dragonball/images/0/08/Super_Hero_-_Ultimate_Gohan.png/revision/latest/scale-to-width-down/985?cb=20240527052024",
-    "form": "Ultimate Form",
-    "info": "Superhero Movie",
-    "border": "#7982EA"
-  },
-  {
-    "powerlevel": "22 Octillion",
-    "name": "Gamma 1",
-    "image": "https://static.wikia.nocookie.net/dragonball/images/1/15/DBS_SH_Gamma_1.png/revision/latest/scale-to-width-down/732?cb=20220817225001",
-    "form": "Base",
-    "info": "Superhero Movie",
-    "border": "#7982EA"
-  },
-  {
-    "powerlevel": "22 Octillion",
-    "name": "Gamma 2",
-    "image": "https://static.wikia.nocookie.net/dragonball/images/e/e2/DBS_SH_Gamma_2_Final_Act.png/revision/latest?cb=20220817225020",
-    "form": "Base",
-    "info": "Superhero Movie",
     "border": "#7982EA"
   },
   {
@@ -289,10 +505,10 @@
   },
   {
     "powerlevel": "20 Octillion",
-    "name": "Piccolo",
-    "image": "https://preview.redd.it/name-piccolos-new-form-wrong-answers-only-v0-bx9n0wscf0291.jpg?auto=webp&s=594ffe2cc8d9b86680fec5f69912c1a9809bd563",
-    "form": "Potential Unlocked",
-    "info": "Superhero Movie",
+    "name": "Moro",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/1/14/Moro_%28Digitial_Colored_Manga%29.jpg/revision/latest/scale-to-width/360?cb=20201003082939",
+    "form": "Weakened Form",
+    "info": "Galactic Patrol Saga",
     "border": "#7982EA"
   },
   {
@@ -800,6 +1016,22 @@
     "border": "#7982EA"
   },
   {
+    "powerlevel": "5 Sextillion",
+    "name": "Vegeta",
+    "image": "https://i.ytimg.com/vi/YCIsD9jYfvg/maxresdefault.jpg",
+    "form": "Base",
+    "info": "Future Trunks Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "5 Sextillion",
+    "name": "Goku",
+    "image": "https://i.ytimg.com/vi/fNoiGA5o--0/maxresdefault.jpg",
+    "form": "Base",
+    "info": "Future Trunks Saga",
+    "border": "#7982EA"
+  },
+  {
     "powerlevel": "4 Sextillion",
     "name": "Frieza",
     "image": "https://i.redd.it/au83p0eawea51.jpg",
@@ -1078,6 +1310,14 @@
     "form": "Super Saiyan",
     "info": "Baby Saga",
     "border": "#B42B2B"
+  },
+  {
+    "powerlevel": "100 Quadrillion",
+    "name": "Gomah",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/0/00/DBD_17_07.png/revision/latest/scale-to-width-down/985?cb=20250212225127",
+    "form": "Third Eye Boost",
+    "info": "Daima Saga",
+    "border": "#9E64E0"
   },
   {
     "powerlevel": "88 Quadrillion",
@@ -2465,6 +2705,14 @@
   },
   {
     "powerlevel": "15 Million",
+    "name": "Gas",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/050/41493.jpg?v=1726306107",
+    "form": "Base",
+    "info": "Granolah Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "15 Million",
     "name": "Vegeta",
     "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/e/e0/Vegeta_Cell_Games.png/revision/latest/scale-to-width-down/1920?cb=20230527151436",
     "form": "Base",
@@ -2521,6 +2769,14 @@
   },
   {
     "powerlevel": "5 Million",
+    "name": "Gas",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/5/52/DBS_Chapter_68_09.png/revision/latest/scale-to-width-down/250?cb=20220318221106",
+    "form": "Base",
+    "info": "Granolah Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "5 Million",
     "name": "Future Trunks",
     "image": "https://external-preview.redd.it/one-of-the-best-classic-og-transformation-in-anime-ssj-v0-MO2vZ_aoAp1owRuHEf0axLT9OyJsn7-88w_2pHaa9Lo.png?format=pjpg&auto=webp&s=145374e9e9381fc8c8da07dee6615d873360ab02",
     "form": "Base",
@@ -2550,6 +2806,14 @@
     "form": "Base",
     "info": "Trunks Saga",
     "border": "#E59770"
+  },
+  {
+    "powerlevel": "3.5 Million",
+    "name": "Granolah",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/0/00/DBS_69_10.png/revision/latest/scale-to-width-down/985?cb=20220319215527",
+    "form": "Base",
+    "info": "Granolah Saga",
+    "border": "#7982EA"
   },
   {
     "powerlevel": "3.2 Million",
@@ -2680,6 +2944,14 @@
     "border": "#98B17B"
   },
   {
+    "powerlevel": "250,000",
+    "name": "Bardock",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWvvzzI2xhFhH8O2rEXvTrim3US7F-Q1eZQQ&s",
+    "form": "Pseudo Super Saiyan",
+    "info": "Granolah Saga",
+    "border": "#7982EA"
+  },
+  {
     "powerlevel": "180,000",
     "name": "Goku",
     "image": "https://static0.cbrimages.com/wordpress/wp-content/uploads/2020/07/Kaioken-on-Namek.jpg?q=50&fit=crop&w=825&dpr=1.5",
@@ -2718,6 +2990,14 @@
     "form": "Base",
     "info": "Coolers Revenge",
     "border": "#98B17B"
+  },
+  {
+    "powerlevel": "150,000",
+    "name": "Gas",
+    "image": "https://static0.cbrimages.com/wordpress/wp-content/uploads/2024/09/gas-from-dragon-ball-super-2.jpg?q=49&fit=contain&w=2800&h=1400&dpr=2",
+    "form": "Inner Nature Unleashed",
+    "info": "Granolah Saga",
+    "border": "#7982EA"
   },
   {
     "powerlevel": "120,000",
@@ -2936,6 +3216,14 @@
     "border": "#E59770"
   },
   {
+    "powerlevel": "15,000",
+    "name": "Gas",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/050/41493.jpg?v=1726306107",
+    "form": "Base",
+    "info": "Granolah Saga",
+    "border": "#7982EA"
+  },
+  {
     "powerlevel": "14,000",
     "name": "Gohan",
     "image": "https://comicvine.gamespot.com/a/uploads/original/11144/111444048/7826578-5587502458-.jpg",
@@ -2966,6 +3254,14 @@
     "form": "Base",
     "info": "Frieza Saga",
     "border": "#E59770"
+  },
+  {
+    "powerlevel": "10,000",
+    "name": "Bardock",
+    "image": "https://i.redd.it/i-know-that-this-is-a-good-few-years-away-but-i-cant-wait-v0-lr96s98vchca1.png?width=1048&format=png&auto=webp&s=f232ff102959a2476a0f927deca44367acf6243e",
+    "form": "Base",
+    "info": "Granolah Saga",
+    "border": "#7982EA"
   },
   {
     "powerlevel": "10,000",
