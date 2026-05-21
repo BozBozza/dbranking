@@ -1,6 +1,6 @@
 [
   {
-    "powerlevel": "533.3 Trillion x",
+    "powerlevel": "1.3 Quadrillion x",
     "name": "Beast Form",
     "image": "https://preview.redd.it/thoughts-on-beast-gohan-v0-p0rh2wqyq51c1.jpg?auto=webp&s=2b91ca3ce1bc9e95c1fe701f4835fb9210301338",
     "form": "Gohan",
@@ -40,11 +40,35 @@
     "border": "#B42B2B"
   },
   {
+    "powerlevel": "80,000,000x",
+    "name": "Super Saiyan Blue Evolution",
+    "image": "https://preview.redd.it/such-an-amazing-shot-of-evolution-blue-vegeta-from-the-new-v0-vvrjy7lhyfjg1.jpeg?width=640&crop=smart&auto=webp&s=61babc95cb27b3bcacab2e96b13f5ae450c05666",
+    "form": "Vegeta",
+    "info": "Tournament of Power Saga",
+    "border": "#7982EA"
+  },
+  {
     "powerlevel": "5,000,000x",
     "name": "Super Saiyan Beserk",
     "image": "https://static.wikia.nocookie.net/dragonball/images/9/96/LSS_Kale_infobox.PNG/revision/latest/scale-to-width/360?cb=20210709122045",
     "form": "Kale",
     "info": "Tournament of Power Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "4,000,000x",
+    "name": "Golden Frieza",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/e/e1/2017-06-18-1-850x560.jpg/revision/latest/scale-to-width-down/250?cb=20210610011742",
+    "form": "Frieza",
+    "info": "Resurrection F Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "4,000,000 x",
+    "name": "Orange Piccolo",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/2/2b/Orange_Piccolo_%28manga%29.png/revision/latest/scale-to-width/360?cb=20240705003005",
+    "form": "Piccolo",
+    "info": "Superhero Movie",
     "border": "#7982EA"
   },
   {
@@ -88,12 +112,44 @@
     "border": "#7982EA"
   },
   {
+    "powerlevel": "20,000 x",
+    "name": "Potential Unlocked",
+    "image": "https://static.wikia.nocookie.net/dragonballfanon/images/7/75/Piccolo_Awakened_Aura.jpg/revision/latest?cb=20240223160510",
+    "form": "Piccolo",
+    "info": "Superhero Movie",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "16,980x",
+    "name": "Fifth Form Cooler",
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/1/15/Cooler_Super_Evolution.png/revision/latest/scale-to-width-down/1920?cb=20230603175004",
+    "form": "Cooler",
+    "info": "Coolers Revenge",
+    "border": "#98B17B"
+  },
+  {
     "powerlevel": "4,000x",
     "name": "Golden Great Ape",
     "image": "https://static.wikia.nocookie.net/dragonball/images/b/b9/Golden_Great_Ape.jpg/revision/latest?cb=20240630143211",
     "form": "Goku",
     "info": "Baby Saga",
     "border": "#B42B2B"
+  },
+  {
+    "powerlevel": "2,000x",
+    "name": "Super Perfect Cell",
+    "image": "https://i.redd.it/80srurhh8cze1.jpeg",
+    "form": "Cell",
+    "info": "Cell Games Saga",
+    "border": "#E59770"
+  },
+  {
+    "powerlevel": "1,000x",
+    "name": "Perfect Cell",
+    "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2024/10/dragon-ball-daima-ep-1-cell.jpg?w=1600&h=1200&fit=crop",
+    "form": "Cell",
+    "info": "Cell Games Saga",
+    "border": "#E59770"
   },
   {
     "powerlevel": "400x",
@@ -104,10 +160,34 @@
     "border": "#E59770"
   },
   {
-    "powerlevel": "355.6x",
+    "powerlevel": "350x",
     "name": "Ultimate Form",
     "image": "https://static0.cbrimages.com/wordpress/wp-content/uploads/2019/10/ultimate-gohan-dragon-ball-z-e1571776688500.jpg?q=50&fit=crop&w=825&dpr=1.5",
     "form": "Gohan",
+    "info": "Buu Saga",
+    "border": "#E59770"
+  },
+  {
+    "powerlevel": "226.4x",
+    "name": "100% Final Form Frieza",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/d/d3/100%25_Full_Power_Frieza_%28manga%29.jpg/revision/latest?cb=20211026164039",
+    "form": "Frieza",
+    "info": "Frieza Saga",
+    "border": "#E59770"
+  },
+  {
+    "powerlevel": "169.8x",
+    "name": "Final Form Frieza",
+    "image": "https://preview.redd.it/was-frieza-born-in-his-100-final-form-or-his-regular-final-v0-dkikikmgwcuc1.jpg?width=540&format=pjpg&auto=webp&s=b95856f4e18ad3a758a63305107c739aa9c242ee",
+    "form": "Frieza",
+    "info": "Frieza Saga",
+    "border": "#E59770"
+  },
+  {
+    "powerlevel": "168.8x",
+    "name": "Majin Form",
+    "image": "https://www.looper.com/img/gallery/what-does-the-majin-symbol-in-dragon-ball-mean-and-what-does-it-actually-do/the-majin-symbol-is-more-powerful-than-dragon-ball-fans-might-think-1730390166.jpg",
+    "form": "Spopovich",
     "info": "Buu Saga",
     "border": "#E59770"
   },
@@ -128,6 +208,38 @@
     "border": "#E59770"
   },
   {
+    "powerlevel": "40x",
+    "name": "Bite of Tree of Might Fruit",
+    "image": "https://static.wikia.nocookie.net/ultradragonball/images/c/c9/Dbz_movie3_1193.webp/revision/latest?cb=20231103124256",
+    "form": "Turles",
+    "info": "Tree of Might",
+    "border": "#98B17B"
+  },
+  {
+    "powerlevel": "25x",
+    "name": "Suppressed Super Saiyan",
+    "image": "https://pbs.twimg.com/media/DkTtHqSX0AAwbe6.jpg",
+    "form": "Broly",
+    "info": "Broly The Legendary Super Saiyan",
+    "border": "#98B17B"
+  },
+  {
+    "powerlevel": "25x",
+    "name": "Pseudo Super Saiyan",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/9/99/Goku_races_towards_Slug.png/revision/latest/scale-to-width-down/250?cb=20190725055820",
+    "form": "Goku",
+    "info": "Lord Slug",
+    "border": "#98B17B"
+  },
+  {
+    "powerlevel": "10x",
+    "name": "Semi Perfect Cell",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLyytrPC81NK7XH6ZPRfMxXhJEgIL6dll-kA&s",
+    "form": "Cell",
+    "info": "Cell Saga",
+    "border": "#E59770"
+  },
+  {
     "powerlevel": "10x",
     "name": "Oozaru",
     "image": "https://static.wikia.nocookie.net/dragonball/images/5/50/Great_Ape_Gohan.png/revision/latest/scale-to-width-down/985?cb=20260106192751",
@@ -136,12 +248,36 @@
     "border": "#C6C485"
   },
   {
+    "powerlevel": "4x",
+    "name": "Giant Form",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/6/66/SuperGarlikJr1.png/revision/latest?cb=20210520205143",
+    "form": "Garlic Jr",
+    "info": "Dead Zone",
+    "border": "#98B17B"
+  },
+  {
+    "powerlevel": "3.8x",
+    "name": "Second Form Frieza",
+    "image": "https://fictionhorizon.com/wp-content/uploads/2023/02/frieza-3rd-form-1300x735.jpg",
+    "form": "Frieza",
+    "info": "Frieza Saga",
+    "border": "#E59770"
+  },
+  {
     "powerlevel": "3x",
     "name": "Max Power",
     "image": "https://static.wikia.nocookie.net/dragonball/images/e/e0/BuffRoshi%28PtP%29.png/revision/latest?cb=20170507163853",
     "form": "Master Roshi",
     "info": "Emperor Pilaf Saga",
     "border": "#C6C485"
+  },
+  {
+    "powerlevel": "1.9x",
+    "name": "Second Form Frieza",
+    "image": "https://i.ytimg.com/vi/nHNo0oPdlNk/maxresdefault.jpg",
+    "form": "Frieza",
+    "info": "Frieza Saga",
+    "border": "#E59770"
   },
   {
     "powerlevel": "1.2x",

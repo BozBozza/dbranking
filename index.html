@@ -10,7 +10,11 @@
 
 <a href="multipliers.html" class="button-link">Multipliers</a><br></br>
 
-<div id="filter-menu"></div>
+<a href="dbheroes.html" class="button-link">Dragon Ball Heroes</a><br></br>
+
+<div id="saga-filter-menu"></div>
+
+<div id="character-filter-menu"></div>
 
 <div id="character-container"></div>
 
@@ -22,22 +26,21 @@
         try {
             const response = await fetch('powerlevels.json');
             allCharacters = await response.json();
-            createFilterMenu();
+            createSagaFilterMenu();
             renderDisplay(allCharacters);
         } catch (error) {
             console.error("Error loading characters:", error);
         }
     }
 
-    function createFilterMenu() {
-        const menu = document.getElementById('filter-menu');
+    function createSagaFilterMenu() {
+        const menu = document.getElementById('saga-filter-menu');
         const orderedCategories = [
             'Shadow Dragon Saga',
             'Super 17 Saga',
             'Baby Saga',
             'Black Star Dragonball Saga',
             'End of Z Saga',
-            'Black Frieza Saga',
             'Superhero Movie',
             'Granolah Saga',
             'Galactic Patrol Saga',
@@ -55,6 +58,7 @@
             'Bojack Unbound',
             'Other World Tournament Saga',
             'Cell Games Saga',
+            'Plan to Eradicate The Saiyans',
             'Broly The Legendary Super Saiyan',
             'Super Android 13',
             'The Return of Cooler',

@@ -1,6 +1,6 @@
 [
   {
-    "powerlevel": "10 Sexdecillion",
+    "powerlevel": "100 Sexdecillion",
     "name": "Frieza",
     "image": "https://static.wikia.nocookie.net/dragonball/images/e/ea/Black_Frieza_defeats_Goku_%26_Vegeta_%28manga%29.png/revision/latest/scale-to-width-down/985?cb=20230601205318",
     "form": "Black Form",
@@ -40,7 +40,7 @@
     "border": "#7982EA"
   },
   {
-    "powerlevel": "207.9 Quindecillion",
+    "powerlevel": "210 Quindecillion",
     "name": "Goku",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUBe7qTxfN43Hf5SnRb7ms1DcEtSMRhwpo5Q&s",
     "form": "Mastered Ultra Instinct",
@@ -258,6 +258,14 @@
   {
     "powerlevel": "1 Undecillion",
     "name": "Goku",
+    "image": "https://static0.cbrimages.com/wordpress/wp-content/uploads/2022/06/Dragon-ball-Super-Hero-Goku-2.jpg?q=50&fit=crop&w=825&dpr=1.5",
+    "form": "Base",
+    "info": "Superhero Movie",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "1 Undecillion",
+    "name": "Goku",
     "image": "https://preview.redd.it/hot-take-i-loved-how-goku-used-his-rage-with-mastered-ultra-v0-8ifuspekl5xb1.png?width=1451&format=png&auto=webp&s=c345f0babcd4144cd575549daa229c2bac3cf5ce",
     "form": "Mastered Ultra Instinct",
     "info": "Tournament of Power Saga",
@@ -269,14 +277,6 @@
     "image": "https://preview.redd.it/could-jiren-have-defeated-moro-if-they-were-to-fight-v0-yzavgigmxcwf1.jpg?width=739&format=pjpg&auto=webp&s=b4065b4b913bfab8579cebc1b998942440bfd253",
     "form": "Super Full Power",
     "info": "Tournament of Power Saga",
-    "border": "#7982EA"
-  },
-  {
-    "powerlevel": "990 Decillion",
-    "name": "Goku",
-    "image": "https://static0.cbrimages.com/wordpress/wp-content/uploads/2022/06/Dragon-ball-Super-Hero-Goku-2.jpg?q=50&fit=crop&w=825&dpr=1.5",
-    "form": "Base",
-    "info": "Superhero Movie",
     "border": "#7982EA"
   },
   {
@@ -350,6 +350,14 @@
     "form": "Super Saiyan 4",
     "info": "Shadow Dragon Saga",
     "border": "#B42B2B"
+  },
+  {
+    "powerlevel": "2.3 Decillion",
+    "name": "Piccolo",
+    "image": "https://i.ytimg.com/vi/025H4dKedV8/maxresdefault.jpg",
+    "form": "Base",
+    "info": "Superhero Movie",
+    "border": "#7982EA"
   },
   {
     "powerlevel": "2 Nonillion",
@@ -1018,7 +1026,15 @@
   {
     "powerlevel": "5 Sextillion",
     "name": "Vegeta",
-    "image": "https://i.ytimg.com/vi/YCIsD9jYfvg/maxresdefault.jpg",
+    "image": "https://static0.cbrimages.com/wordpress/wp-content/uploads/2019/09/dragon-ball-super-vegeta-1.jpg?q=50&fit=crop&w=825&dpr=1.5",
+    "form": "Base",
+    "info": "Tournament of Power Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "5 Sextillion",
+    "name": "Vegeta",
+    "image": "https://ichef.bbci.co.uk/images/ic/480xn/p0d1g6k4.jpg",
     "form": "Base",
     "info": "Future Trunks Saga",
     "border": "#7982EA"
@@ -1032,6 +1048,14 @@
     "border": "#7982EA"
   },
   {
+    "powerlevel": "4.5 Sextillion",
+    "name": "Majora",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/5/58/Majora_fires_blast.png/revision/latest?cb=20170721022021",
+    "form": "Base",
+    "info": "Tournament of Power Saga",
+    "border": "#7982EA"
+  },
+  {
     "powerlevel": "4 Sextillion",
     "name": "Frieza",
     "image": "https://i.redd.it/au83p0eawea51.jpg",
@@ -1040,10 +1064,90 @@
     "border": "#7982EA"
   },
   {
+    "powerlevel": "4 Sextillion",
+    "name": "Shosa",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/8/8f/Shousha.png/revision/latest/scale-to-width-down/1200?cb=20170716092420",
+    "form": "Base",
+    "info": "Tournament of Power Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "3.5 Sextillion",
+    "name": "Android 18",
+    "image": "https://i.redd.it/4jmqgn7my3md1.jpeg",
+    "form": "Base",
+    "info": "Tournament of Power Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "3.5 Sextillion",
+    "name": "Krillin",
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/6/6f/Krillin_Tournament_of_Power.jpg/revision/latest/scale-to-width-down/340?cb=20201113122439",
+    "form": "Base",
+    "info": "Tournament of Power Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "3 Sextillion",
+    "name": "Hop",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/3/3f/Hop.png/revision/latest/scale-to-width-down/1200?cb=20170710155219",
+    "form": "Base",
+    "info": "Tournament of Power Saga",
+    "border": "#7982EA"
+  },
+  {
     "powerlevel": "2.8 Sextillion",
     "name": "Frost",
     "image": "https://static.wikia.nocookie.net/dragonball/images/c/c3/100FP_Frost.png/revision/latest/scale-to-width-down/250?cb=20170924093535",
     "form": "Final Form 100%",
+    "info": "Tournament of Power Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "2.5 Sextillion",
+    "name": "Kakunsa",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/d/dc/Kakunsa.png/revision/latest?cb=20170810110549",
+    "form": "Base",
+    "info": "Tournament of Power Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "2.5 Sextillion",
+    "name": "Roasie",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/6/69/Rozie.png/revision/latest?cb=20170810110035",
+    "form": "Base",
+    "info": "Tournament of Power Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "2.5 Sextillion",
+    "name": "Zirloin",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/d/d9/Rildbrianne.png/revision/latest?cb=20171203160625",
+    "form": "Base",
+    "info": "Tournament of Power Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "2.5 Sextillion",
+    "name": "Zarbuto",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/9/9c/Magical_Guysttt.png/revision/latest/scale-to-width-down/414?cb=20191201151009",
+    "form": "Base",
+    "info": "Tournament of Power Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "2.5 Sextillion",
+    "name": "Rabanra",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/f/fc/Magical_Guyshh.png/revision/latest?cb=20191201151151",
+    "form": "Base",
+    "info": "Tournament of Power Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "2.3 Sextillion",
+    "name": "Jimizu",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/c/c9/Jimeze16.png/revision/latest?cb=20170927205426",
+    "form": "Base",
     "info": "Tournament of Power Saga",
     "border": "#7982EA"
   },
@@ -1088,9 +1192,33 @@
     "border": "#7982EA"
   },
   {
+    "powerlevel": "1.9 Sextillion",
+    "name": "Murichim",
+    "image": "https://static.wikia.nocookie.net/dragonuniverse/images/e/e9/Murichim.png/revision/latest?cb=20170514021009",
+    "form": "Base",
+    "info": "Tournament of Power Saga",
+    "border": "#7982EA"
+  },
+  {
     "powerlevel": "1.8 Sextillion",
     "name": "Rubalt",
     "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/a/ac/Rubaltt.png/revision/latest?cb=20230422014804",
+    "form": "Base",
+    "info": "Tournament of Power Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "1.7 Sextillion",
+    "name": "Tupper",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/7/70/Rock_Tupper.png/revision/latest?cb=20170730202719",
+    "form": "Base",
+    "info": "Tournament of Power Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "1.7 Sextillion",
+    "name": "Cocotte",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/7/76/Coccotte2.jpg/revision/latest/scale-to-width-down/250?cb=20180208184934",
     "form": "Base",
     "info": "Tournament of Power Saga",
     "border": "#7982EA"
@@ -1126,6 +1254,22 @@
     "form": "Super Saiyan",
     "info": "Super 17 Saga",
     "border": "#B42B2B"
+  },
+  {
+    "powerlevel": "500 Quintillion",
+    "name": "Damom",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/3/3c/DamomDBS.png/revision/latest/scale-to-width-down/1200?cb=20171210202209",
+    "form": "Base",
+    "info": "Tournament of Power Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "400 Quintillion",
+    "name": "Gamisalas",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNaQcRypYKLHoRh81ZMjlwBenkY-7XwrGocA&s",
+    "form": "Base",
+    "info": "Tournament of Power Saga",
+    "border": "#7982EA"
   },
   {
     "powerlevel": "80 Quintillion",
@@ -1310,6 +1454,38 @@
     "form": "Super Saiyan",
     "info": "Baby Saga",
     "border": "#B42B2B"
+  },
+  {
+    "powerlevel": "450 Quadrillion",
+    "name": "Dercori",
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/4/43/Dercori_Darkness.png/revision/latest/scale-to-width-down/283?cb=20230416162253",
+    "form": "Base",
+    "info": "Tournament of Power Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "417 Quadrillion",
+    "name": "Master Roshi",
+    "image": "https://i.ytimg.com/vi/hVU_7dbw1ys/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBHc6ZZHhDyNxW7CYxbi78kjcWgmQ",
+    "form": "Max Power",
+    "info": "Tournament of Power Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "370 Quadrillion",
+    "name": "Ganos",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/c/cb/BirdForm.png/revision/latest?cb=20170827190207",
+    "form": "Bird Form",
+    "info": "Tournament of Power Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "139 Quadrillion",
+    "name": "Master Roshi",
+    "image": "https://static0.cbrimages.com/wordpress/wp-content/uploads/2019/10/Master-Roshi.jpg",
+    "form": "Base",
+    "info": "Tournament of Power Saga",
+    "border": "#7982EA"
   },
   {
     "powerlevel": "100 Quadrillion",
@@ -1552,6 +1728,14 @@
     "border": "#E59770"
   },
   {
+    "powerlevel": "3 Quadrillion",
+    "name": "Hatchiyack",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/a/a4/Screenshot_2014-02-13-14-05-28.png/revision/latest?cb=20150719001326",
+    "form": "Base",
+    "info": "Plan to Eradicate The Saiyans",
+    "border": "#98B17B"
+  },
+  {
     "powerlevel": "2.9 Quadrillion",
     "name": "Goku",
     "image": "https://i.ytimg.com/vi/NIDKRUm6KOc/maxresdefault.jpg",
@@ -1744,7 +1928,7 @@
     "border": "#9E64E0"
   },
   {
-    "powerlevel": "27 Trillion",
+    "powerlevel": "27.4 Trillion",
     "name": "Gohan",
     "image": "https://static.wikia.nocookie.net/dragonball/images/d/dc/GohanInKaiCostumeWithZSword.jpg/revision/latest?cb=20110508000925",
     "form": "Base",
@@ -1990,6 +2174,46 @@
     "form": "Super Saiyan",
     "info": "Cell Games Saga",
     "border": "#E59770"
+  },
+  {
+    "powerlevel": "6.5 Trillion",
+    "name": "Goku",
+    "image": "https://pbs.twimg.com/media/HBFevjlXAAAFX1z.jpg",
+    "form": "Super Saiyan",
+    "info": "Plan to Eradicate The Saiyans",
+    "border": "#98B17B"
+  },
+  {
+    "powerlevel": "6.5 Trillion",
+    "name": "Vegeta",
+    "image": "https://m.media-amazon.com/images/M/MV5BOTZhOTM3NzAtNDVmYS00YTNhLTliYjMtN2UwZGEwYmE2OGM1XkEyXkFqcGc@._V1_QL75_UX389_.jpg",
+    "form": "Super Saiyan",
+    "info": "Plan to Eradicate The Saiyans",
+    "border": "#98B17B"
+  },
+  {
+    "powerlevel": "6.5 Trillion",
+    "name": "Future Trunks",
+    "image": "https://m.media-amazon.com/images/M/MV5BNTg1M2NiYzQtNmU0ZS00ZGYwLTk4YjAtNGUyMjJkNDMyNThkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "form": "Super Saiyan",
+    "info": "Plan to Eradicate The Saiyans",
+    "border": "#98B17B"
+  },
+  {
+    "powerlevel": "6.5 Trillion",
+    "name": "Piccolo",
+    "image": "https://static0.cbrimages.com/wordpress/wp-content/uploads/2024/06/dragon-ball-plan-to-eradicate-the-saiyans-piccolo-fires-special-beam-cannon.jpg?q=49&fit=crop&w=146&h=120&dpr=2",
+    "form": "Base",
+    "info": "Plan to Eradicate The Saiyans",
+    "border": "#98B17B"
+  },
+  {
+    "powerlevel": "6.5 Trillion",
+    "name": "Gohan",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/8/8e/Gohan_ice_00.png/revision/latest/scale-to-width-down/250?cb=20120922191608",
+    "form": "Super Saiyan",
+    "info": "Plan to Eradicate The Saiyans",
+    "border": "#98B17B"
   },
   {
     "powerlevel": "6.4 Trillion",
@@ -2704,6 +2928,14 @@
     "border": "#E59770"
   },
   {
+    "powerlevel": "60 Million",
+    "name": "Goku",
+    "image": "https://static0.cbrimages.com/wordpress/wp-content/uploads/2025/03/dragon-ball-z-kaio-ken-x20-goku-punches-frieza.jpg?q=70&fit=crop&w=825&dpr=1",
+    "form": "Kaioken x20",
+    "info": "Frieza Saga",
+    "border": "#E59770"
+  },
+  {
     "powerlevel": "15 Million",
     "name": "Gas",
     "image": "https://www.superherodb.com/pictures2/portraits/10/050/41493.jpg?v=1726306107",
@@ -2912,6 +3144,14 @@
     "border": "#98B17B"
   },
   {
+    "powerlevel": "600,000",
+    "name": "Goku",
+    "image": "https://static0.cbrimages.com/wordpress/wp-content/uploads/2025/03/dragon-ball-z-the-tree-of-might-goku-uses-kaio-ken.jpg?q=70&fit=crop&w=825&dpr=1",
+    "form": "Kaioken x20",
+    "info": "The Tree of Might",
+    "border": "#98B17B"
+  },
+  {
     "powerlevel": "530,000",
     "name": "Frieza",
     "image": "https://i.redd.it/moveset-wishlist-frieza-first-form-v0-kpbaahlnvwnc1.jpg?width=385&format=pjpg&auto=webp&s=517d541ca3151b2f7feede0fe82281b3789e23ad",
@@ -2926,14 +3166,6 @@
     "form": "Base",
     "info": "Frieza Saga",
     "border": "#E59770"
-  },
-  {
-    "powerlevel": "500,000",
-    "name": "Goku",
-    "image": "https://static0.cbrimages.com/wordpress/wp-content/uploads/2025/03/dragon-ball-z-the-tree-of-might-goku-uses-kaio-ken.jpg?q=70&fit=crop&w=825&dpr=1",
-    "form": "Kaioken x20",
-    "info": "The Tree of Might",
-    "border": "#98B17B"
   },
   {
     "powerlevel": "440,000",
@@ -3024,7 +3256,7 @@
     "border": "#E59770"
   },
   {
-    "powerlevel": "90,000",
+    "powerlevel": "100,000",
     "name": "Gohan",
     "image": "https://static0.cbrimages.com/wordpress/wp-content/uploads/2025/04/dragon-ball-z-the-tree-of-might-great-ape-gohan-attacks.jpg?q=70&fit=crop&w=825&dpr=1",
     "form": "Great Ape",
@@ -3120,6 +3352,14 @@
     "border": "#E59770"
   },
   {
+    "powerlevel": "30,000",
+    "name": "Goku",
+    "image": "https://m.media-amazon.com/images/M/MV5BMDA4ZDllOWMtOTc2NC00MTgxLWE0NTEtMjU4ZmRlNGVjZTdmXkEyXkFqcGc@._V1_QL75_UX388_.jpg",
+    "form": "Base",
+    "info": "The Tree of Might",
+    "border": "#98B17B"
+  },
+  {
     "powerlevel": "28,000",
     "name": "Gohan",
     "image": "https://substackcdn.com/image/fetch/$s_!yK0G!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd01ee37e-99c9-43f4-8d11-5951d8474c0e_686x386.jpeg",
@@ -3134,14 +3374,6 @@
     "form": "Monster Form",
     "info": "Namek Saga",
     "border": "#E59770"
-  },
-  {
-    "powerlevel": "25,000",
-    "name": "Goku",
-    "image": "https://m.media-amazon.com/images/M/MV5BMDA4ZDllOWMtOTc2NC00MTgxLWE0NTEtMjU4ZmRlNGVjZTdmXkEyXkFqcGc@._V1_QL75_UX388_.jpg",
-    "form": "Base",
-    "info": "The Tree of Might",
-    "border": "#98B17B"
   },
   {
     "powerlevel": "24,000",
@@ -3201,6 +3433,14 @@
   },
   {
     "powerlevel": "18,000",
+    "name": "Piccolo",
+    "image": "https://i.redd.it/piccolo-tree-of-might-movie-vs-saiyan-saga-vegeta-no-oozaru-v0-r1bmsy7sxvzf1.jpg?width=1920&format=pjpg&auto=webp&s=fe96086b9c55db41a669055a0f3d77bed1707867",
+    "form": "Base",
+    "info": "The Tree of Might",
+    "border": "#98B17B"
+  },
+  {
+    "powerlevel": "18,000",
     "name": "Vegeta",
     "image": "https://static.wikia.nocookie.net/dragonball/images/4/4b/VegetaItsOver9000-02.png/revision/latest/scale-to-width-down/985?cb=20251227091859",
     "form": "Base",
@@ -3230,14 +3470,6 @@
     "form": "Potential Unlocked",
     "info": "Namek Saga",
     "border": "#E59770"
-  },
-  {
-    "powerlevel": "14,000",
-    "name": "Piccolo",
-    "image": "https://i.redd.it/piccolo-tree-of-might-movie-vs-saiyan-saga-vegeta-no-oozaru-v0-r1bmsy7sxvzf1.jpg?width=1920&format=pjpg&auto=webp&s=fe96086b9c55db41a669055a0f3d77bed1707867",
-    "form": "Base",
-    "info": "The Tree of Might",
-    "border": "#98B17B"
   },
   {
     "powerlevel": "13,000",
@@ -3289,6 +3521,14 @@
   },
   {
     "powerlevel": "10,000",
+    "name": "Gohan",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/1/15/The_Tree_of_Might_-_Gohan_pets_Icarus.jpg/revision/latest/scale-to-width-down/985?cb=20240201174246",
+    "form": "Base",
+    "info": "The Tree of Might",
+    "border": "#98B17B"
+  },
+  {
+    "powerlevel": "10,000",
     "name": "Goku",
     "image": "https://static.wikia.nocookie.net/ultradragonball/images/9/9e/DBZWorld_1.jpg/revision/latest?cb=20120818074541",
     "form": "Base",
@@ -3307,14 +3547,6 @@
     "powerlevel": "9,100",
     "name": "Amond",
     "image": "https://static.wikia.nocookie.net/dragonball/images/0/06/Amond.jpg/revision/latest/scale-to-width-down/985?cb=20240202204125",
-    "form": "Base",
-    "info": "The Tree of Might",
-    "border": "#98B17B"
-  },
-  {
-    "powerlevel": "9,000",
-    "name": "Gohan",
-    "image": "https://static.wikia.nocookie.net/dragonball/images/1/15/The_Tree_of_Might_-_Gohan_pets_Icarus.jpg/revision/latest/scale-to-width-down/985?cb=20240201174246",
     "form": "Base",
     "info": "The Tree of Might",
     "border": "#98B17B"

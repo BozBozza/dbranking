@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Character Rankings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1 style="text-align:center">Dragon Ball Heroes All Power Levels</h1>
+
+<a href="index.html" class="button-link">Power Levels</a>
+
+<div id="character-container"></div>
+
+<script>
+    async function loadCharacters() {
+        try {
+            // Fetch the JSON file
+            const response = await fetch('powerlevelsheroes.json');
+            const characters = await response.json();
+
+            const container = document.getElementById('character-container');
+
+            // Map the data into HTML strings
+            container.innerHTML = characters.map(char => `
+                    <div class="character-card" style="border:3px solid ${char.border};">
+                    <span class="powerlevel">${char.powerlevel}</span>
+                        <h2>${char.name}</h2>
+                        <p>${char.form}</p>
+                        <p>${char.info}</p>
+                    </div>
+                `).join('');
+
+        } catch (error) {
+            console.error("Error loading characters:", error);
+        }
+    }
+
+    // Run the function
+    loadCharacters();
+</script>
+</body>
+</html>
