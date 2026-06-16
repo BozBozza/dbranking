@@ -3,116 +3,96 @@
 <head>
     <title>Character Rankings</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* CSS to handle the full-screen horizontal layout */
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden; /* Hide scrollbars */
+            background-color: #111; /* Dark background looks great for full-screen showcases */
+            font-family: Arial, sans-serif;
+        }
+
+        #character-container {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 100%;
+            overflow-x: hidden; /* JavaScript will handle the scrolling movement */
+            white-space: nowrap;
+        }
+
+        .character-card {
+            flex: 0 0 100%; /* Forces each card to be exactly 100% of the screen width */
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Adjusting your existing elements to look great at full screen */
+        .character-card img {
+            max-h
 </head>
 <body>
 
-<h1 style="text-align:center">Dragon Ball All Power Levels</h1>
-
-<a href="multipliers.html" class="button-link">Multipliers</a><br></br>
-
-<a href="dbheroes.html" class="button-link">Dragon Ball Heroes</a><br></br>
-
-<div id="saga-filter-menu"></div>
-
-<div id="character-filter-menu"></div>
-
 <div id="character-container"></div>
-
 
 <script>
     let allCharacters = [];
+    const container = document.getElementById('character-container');
+    
+    // ADJUST SPEED HERE: Higher number = faster scroll, Lower number = slower scroll
+    const scrollSpeed = 2; 
 
     async function loadCharacters() {
         try {
             const response = await fetch('powerlevels.json');
             allCharacters = await response.json();
-            createSagaFilterMenu();
             renderDisplay(allCharacters);
+            startInfiniteScroll();
         } catch (error) {
             console.error("Error loading characters:", error);
         }
     }
 
-    function createSagaFilterMenu() {
-        const menu = document.getElementById('saga-filter-menu');
-        const orderedCategories = [
-            'Shadow Dragon Saga',
-            'Super 17 Saga',
-            'Baby Saga',
-            'Black Star Dragonball Saga',
-            'End of Z Saga',
-            'Superhero Movie',
-            'Granolah Saga',
-            'Galactic Patrol Saga',
-            'Broly Movie',
-            'Tournament of Power Saga',
-            'Future Trunks Saga',
-            'Universe 6 Tournament Saga',
-            'Resurrection F Saga',
-            'Battle of Gods Saga',
-            'Daima Saga',
-            'Wrath of the Dragon',
-            'Fusion Saga',
-            'Buu Saga',
-            'Broly - Second Coming',
-            'Bojack Unbound',
-            'Other World Tournament Saga',
-            'Cell Games Saga',
-            'Plan to Eradicate The Saiyans',
-            'Broly The Legendary Super Saiyan',
-            'Super Android 13',
-            'The Return of Cooler',
-            'Cell Saga',
-            'Android Saga',
-            'Coolers Revenge',
-            'Trunks Saga',
-            'The History of Trunks',
-            'Garlic Jr Saga',
-            'Frieza Saga',
-            'Lord Slug',
-            'Namek Saga',
-            'The Tree of Might',
-            'The Worlds Strongest',
-            'Saiyan Saga',
-            'Raditz Saga',
-            'Dead Zone',
-            'Piccolo Jr Saga',
-            'King Piccolo Saga',
-            'Tien Shinhan Saga',
-            'Fortuneteller Baba Saga',
-            'Red Ribbon Army Saga',
-            'Tournament Saga',
-            'Emperor Pilaf Saga',
-            'Bardock - The Father of Goku',
-        ]
-        let menuHTML = `<button class="filter-btn" onclick="filterData('all')">Show All</button>`;
-        menuHTML += orderedCategories.map(cat => `
-            <button class="filter-btn" onclick="filterData('${cat}')">${cat}</button>
-        `).join('');
-        menu.innerHTML = menuHTML;
-    }
-
-    function filterData(category) {
-        if (category === 'all') {
-            renderDisplay(allCharacters);
-        } else {
-            const filtered = allCharacters.filter(char => char.info === category);
-            renderDisplay(filtered);
-        }
-    }
-
     function renderDisplay(dataToShow) {
-        const container = document.getElementById('character-container');
-
         container.innerHTML = dataToShow.map(char => `
-            <div class="character-card" style="border:3px solid ${char.border};">
-                <span class="powerlevel">${char.powerlevel}</span>
-                <img src="${char.image}" style="border:3px solid ${char.border};">
+            <div class="character-card" style="border: 10px solid ${char.border || '#fff'};">
+                <span class="powerlevel" style="color: ${char.border || '#fff'}">${char.powerlevel}</span>
+                <img src="${char.image}" style="border: 5px solid ${char.border || '#fff'};">
                 <h2>${char.name}</h2>
-                <p>${char.form}</p>
+                <h3>${char.form}</h3>
                 <p>${char.info}</p>
             </div>
         `).join('');
+    }
+
+    function startInfiniteScroll() {
+        function scroll() {
+            // Move the container to the left
+            container.scrollLeft += scrollSpeed;
+
+            // If it reaches the end of the scroll width, reset back to 0 (the beginning)
+            // We subtract container.clientWidth to account for the viewport width
+            if (container.scrollLeft >= (container.scrollWidth - container.clientWidth)) {
+                container.scrollLeft = 0;
+            }
+
+            // Calls the function smoothly on every animation frame
+            requestAnimationFrame(scroll);
+        }
+        
+        // Start the loop
+        requestAnimationFrame(scroll);
     }
 
     loadCharacters();
