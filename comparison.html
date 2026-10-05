@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Power Level Comparison</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1 id="page-title" style="text-align:center">Power Level Comparison</h1>
+
+<div id="select-screen">
+    <!-- inside the select screen, so the comparison itself is left uncluttered -->
+    <a href="index.html" class="button-link">Power Levels</a>
+    <a href="multipliers/multipliers.html" class="button-link">Multipliers</a>
+    <a href="info.html" class="button-link">Info</a>
+    <a href="guess.html" class="button-link">Guessing Game</a>
+
+    <p id="select-intro">Pick two characters and watch every one of their forms, weakest to strongest.</p>
+
+    <div id="picker">
+        <div class="picker-field">
+            <label class="picker-label" for="input-a">Character A</label>
+            <div class="input-wrap">
+                <input id="input-a" class="char-input" type="text" autocomplete="off" placeholder="Start typing a name...">
+                <ul class="suggestions" id="suggestions-a" hidden></ul>
+            </div>
+            <p class="picker-note" id="note-a"></p>
+        </div>
+
+        <div id="picker-middle">
+            <span id="vs-divider">VS</span>
+            <button class="action-btn" id="swap-btn" type="button" title="Swap the two characters">&#8646;</button>
+        </div>
+
+        <div class="picker-field">
+            <label class="picker-label" for="input-b">Character B</label>
+            <div class="input-wrap">
+                <input id="input-b" class="char-input" type="text" autocomplete="off" placeholder="Start typing a name...">
+                <ul class="suggestions" id="suggestions-b" hidden></ul>
+            </div>
+            <p class="picker-note" id="note-b"></p>
+        </div>
+    </div>
+
+    <div id="start-row">
+        <button class="action-btn" id="start-btn" type="button" disabled>Start Comparison</button>
+        <p id="start-note"></p>
+    </div>
+
+    <!-- toggles which series' forms are allowed into a comparison -->
+    <div id="comparison-series-filter">
+        <p id="series-filter-title">Include Series</p>
+        <div id="comparison-series-menu"></div>
+    </div>
+</div>
+
+<div id="compare-screen" hidden>
+    <div id="arena">
+        <div class="side" id="side-a">
+            <div class="side-top">
+                <div class="fighter-art"><img id="img-a" alt=""></div>
+                <div class="bar-track" id="track-a">
+                    <div class="bar-fill" id="fill-a"><span class="powerlevel bar-value" id="value-a"></span></div>
+                </div>
+            </div>
+            <div class="character-card side-caption">
+                <h2 id="form-a"></h2>
+                <p id="info-a"></p>
+            </div>
+        </div>
+
+        <div class="side" id="side-b">
+            <div class="side-top">
+                <div class="fighter-art"><img id="img-b" alt=""></div>
+                <div class="bar-track" id="track-b">
+                    <div class="bar-fill" id="fill-b"><span class="powerlevel bar-value" id="value-b"></span></div>
+                </div>
+            </div>
+            <div class="character-card side-caption">
+                <h2 id="form-b"></h2>
+                <p id="info-b"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- playback is keyboard only: space pauses, left/right step, escape cancels -->
+    <div id="compare-controls">
+        <span id="step-counter"></span>
+    </div>
+</div>
+
+<script>
+    // ---- tunables ----
+    const MS_PER_BAR_PERCENT     = 20;   // bar travel speed: ms per 1% of track height,
+                                         // so a big jump animates longer than a small one
+    const MIN_GROW_MS            = 250;  // shortest a bar animation can be
+    const MAX_GROW_MS            = 2200; // longest a bar animation can be
+    const HOLD_BETWEEN_STEPS_MS  = 2500; // still frame after the bar settles, before the
+                                         // next form - the same for every step
+    const MIN_BAR_HEIGHT_PERCENT = 6;    // floor so a bar is never invisible
+    const MAX_SUGGESTIONS        = 8;
+    const PRELOAD_AHEAD          = 4;    // steps worth of art fetched in advance
+    const COLOUR_WARMUP_MS       = 1200; // how long the first step waits on its colours
+    const SAMPLE_SIZE            = 32;   // art is scaled to this square before sampling
+    const MAX_COLOUR_LUMINANCE   = 0.62; // sampled colours are darkened past this, so the
+                                         // white power level stays readable on them
+    const VIVID_SATURATION       = 0.25; // below this a sampled colour counts as grey
+
+    const MAGNITUDES = {
+        Million:       1e6,
+        Billion:       1e9,
+        Trillion:      1e12,
+        Quadrillion:   1e15,
+        Quintillion:   1e18,
+        Sextillion:    1e21,
+        Septillion:    1e24,
+        Octillion:     1e27,
+        Nonillion:     1e30,
+        Decillion:     1e33,
+        Undecillion:   1e36,
+        Duodecillion:  1e39,
+        Tredecillion:  1e42,
+        Quindecillion: 1e48,
+    };
+
+    // same list and colours as the rankings page
+    const seriesColors = [
+        { name: 'Dragon Ball GT', color: '#B42B2B' },
+        { name: 'Dragon Ball Super', color: '#7982EA' },
+        { name: 'Dragon Ball Daima', color: '#9E64E0' },
+        { name: 'Dragon Ball Movies', color: '#98B17B' },
+        { name: 'Dragon Ball Z', color: '#ea841b' },
+        { name: 'Original Dragon Ball', color: '#C6C485' },
+    ];
+    const activeSeries = new Set();
+
+    let allCharacters = [];
+    let availableCharacters = [];   // allCharacters minus the toggled-off series
+    let characterNames = [];
+
+    // comparison state
+    let formsA = [];
+    let formsB = [];
+    let steps = [];
+    let currentStepIndex = 0;
+    let playState = 'playing';      // playing | paused | finished
+    let barAnimations = [];         // the two live bar Animations
+    let animationsLive = false;     // true while those are mid-flight (so Play resumes them)
+
+    const pickers = {};
+
+    // "15 Quindecillion" / "18,000" -> a number. Only ever used for ordering and
+    // the bar scale; the string from the JSON is what gets displayed.
+    function parsePowerLevel(str) {
+        const cleaned = String(str).replace(/,/g, '').trim();
+        const match = cleaned.match(/^([\d.]+)\s*([A-Za-z]*)$/);
+        if (!match) return NaN;
+        const [, numStr, word] = match;
+        return parseFloat(numStr) * (MAGNITUDES[word] ?? 1);
+    }
+
+    // the file is sorted strongest -> weakest, so reversing one character's
+    // entries gives their forms in chronological order
+    function getChronologicalForms(name) {
+        return availableCharacters
+            .filter(c => c.name === name)
+            .slice()
+            .reverse()
+            .map(c => ({ ...c, value: parsePowerLevel(c.powerlevel) }));
+    }
+
+    // one index-advance at a time: whoever is behind puts on their next form
+    function buildSteps(formsA, formsB) {
+        let iA = 0, iB = 0;
+        const steps = [{ aIndex: 0, bIndex: 0 }];
+        while (iA < formsA.length - 1 || iB < formsB.length - 1) {
+            const aDone = iA >= formsA.length - 1;
+            const bDone = iB >= formsB.length - 1;
+            if (aDone && !bDone) {
+                iB++;
+            } else if (bDone && !aDone) {
+                iA++;
+            } else if (formsA[iA].value <= formsB[iB].value) {
+                iA++;       // A is behind (or tied) -> A advances
+            } else {
+                iB++;       // B is behind -> B advances
+            }
+            steps.push({ aIndex: iA, bIndex: iB });
+        }
+        return steps;
+    }
+
+    // ---- bar heights ----
+
+    // whoever is ahead fills the bar; the other is a true proportion of it, so half
+    // the power level is half the bar
+    function heightPercent(value, leaderValue) {
+        return Math.max(MIN_BAR_HEIGHT_PERCENT, (value / leaderValue) * 100);
+    }
+
+    function addBarHeights(steps, formsA, formsB) {
+        steps.forEach(step => {
+            const valueA = formsA[step.aIndex].value;
+            const valueB = formsB[step.bIndex].value;
+            const leader = Math.max(valueA, valueB);
+            step.heightA = heightPercent(valueA, leader);
+            step.heightB = heightPercent(valueB, leader);
+        });
+    }
+
+    // ---- bar colours, sampled from the character art ----
+
+    const colourCache = new Map();          // image url -> [hex, hex]
+    const shownImage = { a: null, b: null };
+
+    function toHex({ r, g, b }) {
+        const part = n => Math.round(Math.min(255, Math.max(0, n))).toString(16).padStart(2, '0');
+        return `#${part(r)}${part(g)}${part(b)}`;
+    }
+
+    function luminance({ r, g, b }) {
+        return (0.2126 * r + 0.7152 * g + 0.0722 * b) / 255;
+    }
+
+    function saturation({ r, g, b }) {
+        const max = Math.max(r, g, b);
+        return max === 0 ? 0 : (max - Math.min(r, g, b)) / max;
+    }
+
+    function distance(one, two) {
+        return Math.hypot(one.r - two.r, one.g - two.g, one.b - two.b);
+    }
+
+    function capLuminance(colour) {
+        const lum = luminance(colour);
+        if (lum <= MAX_COLOUR_LUMINANCE) return colour;
+        const scale = MAX_COLOUR_LUMINANCE / lum;
+        return { r: colour.r * scale, g: colour.g * scale, b: colour.b * scale };
+    }
+
+    // the two colours the image is most made of, biased towards vivid ones
+    function paletteFromPixels(data) {
+        const buckets = new Map();
+        for (let i = 0; i < data.length; i += 4) {
+            if (data[i + 3] < 128) continue;              // skip transparent pixels
+            const r = data[i], g = data[i + 1], b = data[i + 2];
+            const key = (r >> 5) * 64 + (g >> 5) * 8 + (b >> 5);
+            let bucket = buckets.get(key);
+            if (!bucket) buckets.set(key, bucket = { r: 0, g: 0, b: 0, count: 0 });
+            bucket.r += r;
+            bucket.g += g;
+            bucket.b += b;
+            bucket.count++;
+        }
+        if (!buckets.size) return null;
+
+        const averaged = [...buckets.values()]
+            .map(b => ({ r: b.r / b.count, g: b.g / b.count, b: b.b / b.count, count: b.count }))
+            .map(c => ({ ...c, score: c.count * (1 + saturation(c) * 2) }))
+            .sort((one, two) => two.score - one.score);
+
+        // greys are usually background or shading, so they only get used when the
+        // art has nothing more colourful in it
+        const vivid = averaged.filter(c => saturation(c) >= VIVID_SATURATION);
+        const candidates = vivid.length >= 2 ? vivid : averaged;
+
+        const first = candidates[0];
+        // the second has to be far enough away to actually read as a gradient
+        const second = candidates.find(c => distance(c, first) > 90)
+            || { r: first.r * 0.45, g: first.g * 0.45, b: first.b * 0.45 };
+        return [toHex(capLuminance(first)), toHex(capLuminance(second))];
+    }
+
+    function hslToHex(hue, saturationPercent, lightnessPercent) {
+        const s = saturationPercent / 100, l = lightnessPercent / 100;
+        const chroma = (1 - Math.abs(2 * l - 1)) * s;
+        const x = chroma * (1 - Math.abs(((hue / 60) % 2) - 1));
+        const m = l - chroma / 2;
+        const [r, g, b] = hue < 60 ? [chroma, x, 0]
+            : hue < 120 ? [x, chroma, 0]
+            : hue < 180 ? [0, chroma, x]
+            : hue < 240 ? [0, x, chroma]
+            : hue < 300 ? [x, 0, chroma]
+            : [chroma, 0, x];
+        return toHex({ r: (r + m) * 255, g: (g + m) * 255, b: (b + m) * 255 });
+    }
+
+    // a few image hosts (reddit, pinterest) send no CORS header, so their pixels
+    // can't be read - those get a pair derived from the url instead, which at
+    // least stays the same colour every time that form comes up
+    function fallbackColours(url) {
+        let hash = 0;
+        for (let i = 0; i < url.length; i++) hash = (hash * 31 + url.charCodeAt(i)) >>> 0;
+        const hue = hash % 360;
+        return [hslToHex(hue, 62, 45), hslToHex((hue + 40) % 360, 68, 28)];
+    }
+
+    // once a host has refused a cross-origin read there's no point asking again for
+    // its other images - every form on that host goes straight to the fallback
+    const hostsWithoutCors = new Set();
+
+    function hostOf(url) {
+        try {
+            return new URL(url).host;
+        } catch (error) {
+            return url;
+        }
+    }
+
+    function samplePalette(url) {
+        const host = hostOf(url);
+        if (hostsWithoutCors.has(host)) return Promise.resolve(null);
+        return new Promise(resolve => {
+            const image = new Image();
+            image.crossOrigin = 'anonymous';   // fails outright on hosts without CORS
+            image.onload = () => {
+                try {
+                    const canvas = document.createElement('canvas');
+                    canvas.width = canvas.height = SAMPLE_SIZE;
+                    const context = canvas.getContext('2d', { willReadFrequently: true });
+                    context.drawImage(image, 0, 0, SAMPLE_SIZE, SAMPLE_SIZE);
+                    resolve(paletteFromPixels(context.getImageData(0, 0, SAMPLE_SIZE, SAMPLE_SIZE).data));
+                } catch (error) {
+                    hostsWithoutCors.add(host);   // tainted canvas
+                    resolve(null);
+                }
+            };
+            image.onerror = () => {
+                hostsWithoutCors.add(host);
+                resolve(null);
+            };
+            image.src = url;
+        });
+    }
+
+    function ensureColours(url) {
+        const cached = colourCache.get(url);
+        if (cached) return Promise.resolve(cached);
+        return samplePalette(url).then(pair => {
+            const colours = pair || fallbackColours(url);
+            colourCache.set(url, colours);
+            return colours;
+        });
+    }
+
+    function paintBar(side, colours) {
+        document.getElementById('fill-' + side).style.backgroundImage =
+            `linear-gradient(to top, ${colours[0]}, ${colours[1]})`;
+    }
+
+    function applyColours(side, url) {
+        const cached = colourCache.get(url);
+        if (cached) {
+            paintBar(side, cached);
+            return;
+        }
+        paintBar(side, fallbackColours(url));    // something to show while sampling
+        ensureColours(url).then(colours => {
+            if (shownImage[side] === url) paintBar(side, colours);
+        });
+    }
+
+    // ---- rendering ----
+
+    // how far the furthest-moving bar has to travel decides how long the growth takes;
+    // the hold after it is the same every step, so the pace between forms stays even
+    function stepTiming(step, previous) {
+        const fromA = previous ? previous.heightA : MIN_BAR_HEIGHT_PERCENT;
+        const fromB = previous ? previous.heightB : MIN_BAR_HEIGHT_PERCENT;
+        const travel = Math.max(Math.abs(step.heightA - fromA), Math.abs(step.heightB - fromB));
+        const grow = Math.min(MAX_GROW_MS, Math.max(MIN_GROW_MS, travel * MS_PER_BAR_PERCENT));
+        return { grow, total: grow + HOLD_BETWEEN_STEPS_MS };
+    }
+
+    function renderSide(side, forms, step, previous, timing) {
+        const form = forms[step[side + 'Index']];
+        const toPercent = step['height' + side.toUpperCase()];
+        const fromPercent = previous ? previous['height' + side.toUpperCase()] : MIN_BAR_HEIGHT_PERCENT;
+
+        const image = document.getElementById('img-' + side);
+        image.src = form.image;
+        image.alt = `${form.name} - ${form.form}`;
+        image.style.borderColor = form.border;
+        shownImage[side] = form.image;
+        applyColours(side, form.image);
+
+        document.getElementById('value-' + side).textContent = form.powerlevel;
+        document.getElementById('form-' + side).textContent = form.form;
+        document.getElementById('info-' + side).textContent = form.info;
+        document.querySelector('#side-' + side + ' .side-caption').style.borderColor = form.border;
+
+        const fill = document.getElementById('fill-' + side);
+        fill.style.height = toPercent + '%';   // where it rests once the animation ends
+
+        if (!timing) return null;
+        // the hold is the flat tail of the same animation rather than a separate timer,
+        // so pausing mid-hold works exactly like pausing mid-growth
+        return fill.animate([
+            { height: fromPercent + '%', offset: 0 },
+            { height: toPercent + '%', offset: timing.grow / timing.total },
+            { height: toPercent + '%', offset: 1 }
+        ], { duration: timing.total, easing: 'linear', fill: 'forwards' });
+    }
+
+    function renderStep(index, animate) {
+        cancelAnimations();
+        const step = steps[index];
+        const previous = index > 0 ? steps[index - 1] : null;
+        const timing = animate ? stepTiming(step, previous) : null;
+        barAnimations = [
+            renderSide('a', formsA, step, previous, timing),
+            renderSide('b', formsB, step, previous, timing)
+        ].filter(Boolean);
+        animationsLive = animate;
+        preloadAhead(index);
+        updateControls();
+        return barAnimations;
+    }
+
+    function cancelAnimations() {
+        barAnimations.forEach(animation => {
+            animation.onfinish = null;
+            animation.cancel();     // the fill keeps the height set in renderSide
+        });
+        barAnimations = [];
+        animationsLive = false;
+    }
+
+    // the art is remote, so fetch and sample the next few steps before they're needed
+    function preloadAhead(index) {
+        for (let i = index + 1; i <= index + PRELOAD_AHEAD && i < steps.length; i++) {
+            [formsA[steps[i].aIndex].image, formsB[steps[i].bIndex].image].forEach(url => {
+                new Image().src = url;
+                ensureColours(url);
+            });
+        }
+    }
+
+    // ---- playback ----
+
+    // the first bar's animation doubles as the step timer: pausing it pauses the
+    // whole sequence, with no interval left running behind it
+    function playStep(index) {
+        currentStepIndex = index;
+        const animations = renderStep(index, true);
+        if (!animations.length) return;
+        animations[0].onfinish = () => {
+            if (playState !== 'playing') return;
+            animationsLive = false;
+            if (index >= steps.length - 1) {
+                playState = 'finished';
+                updateControls();
+            } else {
+                playStep(index + 1);
+            }
+        };
+    }
+
+    function togglePlay() {
+        if (playState === 'finished') return;
+        if (playState === 'playing') {
+            playState = 'paused';
+            barAnimations.forEach(animation => animation.pause());
+            updateControls();
+        } else {
+            playState = 'playing';
+            if (animationsLive) {
+                barAnimations.forEach(animation => animation.play());
+                updateControls();
+            } else {
+                playStep(currentStepIndex);   // replays the step we were parked on
+            }
+        }
+    }
+
+    // manual stepping jumps straight to the values, and never resumes autoplay
+    function stepBy(delta) {
+        const next = Math.min(steps.length - 1, Math.max(0, currentStepIndex + delta));
+        cancelAnimations();
+        currentStepIndex = next;
+        playState = next === steps.length - 1 ? 'finished' : 'paused';
+        renderStep(next, false);
+    }
+
+    function updateControls() {
+        document.getElementById('step-counter').textContent = `Step ${currentStepIndex + 1} / ${steps.length}`;
+    }
+
+    async function startComparison(nameA, nameB) {
+        formsA = getChronologicalForms(nameA);
+        formsB = getChronologicalForms(nameB);
+        steps = buildSteps(formsA, formsB);
+        addBarHeights(steps, formsA, formsB);
+
+        // give the first step's colours a moment to land so it doesn't open on
+        // the fallback pair and then correct itself a beat later
+        await Promise.race([
+            Promise.all([ensureColours(formsA[0].image), ensureColours(formsB[0].image)]),
+            new Promise(resolve => setTimeout(resolve, COLOUR_WARMUP_MS))
+        ]);
+
+        document.getElementById('page-title').textContent = `${nameA} VS ${nameB} Power Level Comparison`;
+        document.getElementById('select-screen').hidden = true;
+        document.getElementById('compare-screen').hidden = false;
+
+        playState = 'playing';
+        playStep(0);
+    }
+
+    function cancelComparison() {
+        cancelAnimations();
+        steps = [];
+        formsA = [];
+        formsB = [];
+        currentStepIndex = 0;
+        playState = 'playing';
+        document.getElementById('compare-screen').hidden = true;
+        document.getElementById('select-screen').hidden = false;
+        // the names are left in the inputs so a re-run only needs one edit
+        document.getElementById('page-title').textContent = 'Power Level Comparison';
+    }
+
+    // ---- series filter ----
+
+    function createSeriesFilterMenu() {
+        const menu = document.getElementById('comparison-series-menu');
+        // every series starts toggled on
+        menu.innerHTML = seriesColors.map(series => {
+            activeSeries.add(series.color.toUpperCase());
+            return `
+            <button class="filter-btn series-toggle active" data-color="${series.color}" style="background:${series.color}" onclick="toggleSeries('${series.color}')">${series.name}</button>
+        `;
+        }).join('');
+    }
+
+    function toggleSeries(color) {
+        const key = color.toUpperCase();
+        const btn = document.querySelector(`.series-toggle[data-color="${color}"]`);
+        if (activeSeries.has(key)) {
+            activeSeries.delete(key);
+            btn.style.background = '';
+            btn.classList.remove('active');
+        } else {
+            activeSeries.add(key);
+            btn.style.background = color;
+            btn.classList.add('active');
+        }
+        applySeriesFilter();
+    }
+
+    // forms from a toggled-off series are dropped entirely, so a character whose
+    // every form has gone also drops out of the name list
+    function applySeriesFilter() {
+        availableCharacters = allCharacters.filter(char => activeSeries.has(char.border.toUpperCase()));
+        characterNames = [...new Set(availableCharacters.map(char => char.name))].sort();
+        if (pickers.a) pickers.a.close();
+        if (pickers.b) pickers.b.close();
+        validate();
+    }
+
+    // ---- character select ----
+
+    function findName(text) {
+        const wanted = text.trim().toLowerCase();
+        return characterNames.find(name => name.toLowerCase() === wanted) || null;
+    }
+
+    // half-typed names are fine, so the note only appears once nothing matches
+    function matchesNothing(text) {
+        const typed = text.trim().toLowerCase();
+        return !!typed && !characterNames.some(name => name.toLowerCase().includes(typed));
+    }
+
+    function validate() {
+        const inputA = document.getElementById('input-a');
+        const inputB = document.getElementById('input-b');
+        const nameA = findName(inputA.value);
+        const nameB = findName(inputB.value);
+
+        document.getElementById('note-a').textContent = matchesNothing(inputA.value) ? 'No character found' : '';
+        document.getElementById('note-b').textContent = matchesNothing(inputB.value) ? 'No character found' : '';
+
+        const same = nameA && nameA === nameB;
+        document.getElementById('start-note').textContent = same ? 'Pick two different characters.' : '';
+        document.getElementById('start-btn').disabled = !nameA || !nameB || !!same;
+    }
+
+    function setupPicker(side) {
+        const input = document.getElementById('input-' + side);
+        const list = document.getElementById('suggestions-' + side);
+        let matches = [];
+        let highlight = -1;
+
+        function close() {
+            list.hidden = true;
+            highlight = -1;
+        }
+
+        function refresh() {
+            const text = input.value.trim().toLowerCase();
+            matches = text ? characterNames.filter(name => name.toLowerCase().includes(text)).slice(0, MAX_SUGGESTIONS) : [];
+            if (!matches.length) {
+                close();
+            } else {
+                list.innerHTML = matches.map((name, i) => `<li data-index="${i}">${name}</li>`).join('');
+                list.hidden = false;
+                highlight = -1;
+            }
+            validate();
+        }
+
+        function setHighlight(next) {
+            highlight = next;
+            [...list.children].forEach((item, i) => item.classList.toggle('active', i === highlight));
+            if (highlight >= 0) list.children[highlight].scrollIntoView({ block: 'nearest' });
+        }
+
+        function pick(name) {
+            input.value = name;
+            close();
+            validate();
+        }
+
+        input.addEventListener('input', refresh);
+        input.addEventListener('focus', refresh);
+
+        input.addEventListener('keydown', event => {
+            if (event.key === 'ArrowDown') {
+                event.preventDefault();
+                if (list.hidden) {
+                    refresh();
+                    if (!list.hidden) setHighlight(0);
+                } else {
+                    setHighlight((highlight + 1) % matches.length);
+                }
+            } else if (event.key === 'ArrowUp') {
+                event.preventDefault();
+                if (!list.hidden) setHighlight((highlight - 1 + matches.length) % matches.length);
+            } else if (event.key === 'Enter') {
+                event.preventDefault();
+                if (!list.hidden && highlight >= 0) {
+                    pick(matches[highlight]);
+                } else {
+                    close();
+                    const start = document.getElementById('start-btn');
+                    if (!start.disabled) start.click();
+                }
+            } else if (event.key === 'Escape') {
+                close();
+            }
+        });
+
+        // mousedown rather than click, so the input doesn't blur out from under it
+        list.addEventListener('mousedown', event => {
+            event.preventDefault();
+            const item = event.target.closest('li');
+            if (item) pick(matches[Number(item.dataset.index)]);
+        });
+
+        document.addEventListener('click', event => {
+            if (!input.contains(event.target) && !list.contains(event.target)) close();
+        });
+
+        pickers[side] = { close };
+    }
+
+    document.getElementById('swap-btn').addEventListener('click', () => {
+        const inputA = document.getElementById('input-a');
+        const inputB = document.getElementById('input-b');
+        const held = inputA.value;
+        inputA.value = inputB.value;
+        inputB.value = held;
+        pickers.a.close();
+        pickers.b.close();
+        validate();
+    });
+
+    document.getElementById('start-btn').addEventListener('click', () => {
+        const nameA = findName(document.getElementById('input-a').value);
+        const nameB = findName(document.getElementById('input-b').value);
+        if (!nameA || !nameB || nameA === nameB) return;
+        pickers.a.close();
+        pickers.b.close();
+        startComparison(nameA, nameB);
+    });
+
+    // the comparison is driven entirely from the keyboard
+    document.addEventListener('keydown', event => {
+        if (document.getElementById('compare-screen').hidden) return;
+        if (event.key === ' ') {
+            event.preventDefault();
+            togglePlay();
+        } else if (event.key === 'ArrowLeft') {
+            stepBy(-1);
+        } else if (event.key === 'ArrowRight') {
+            stepBy(1);
+        } else if (event.key === 'Escape') {
+            cancelComparison();
+        }
+    });
+
+    async function loadCharacters() {
+        try {
+            const response = await fetch('powerlevels.json');
+            allCharacters = await response.json();
+            applySeriesFilter();
+        } catch (error) {
+            console.error("Error loading characters:", error);
+            document.getElementById('start-note').textContent = 'Could not load powerlevels.json.';
+        }
+    }
+
+    createSeriesFilterMenu();
+    setupPicker('a');
+    setupPicker('b');
+    loadCharacters();
+</script>
+</body>
+</html>

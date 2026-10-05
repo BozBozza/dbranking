@@ -237,3 +237,272 @@ body {
     line-height: 1.3;
     pointer-events: none;
 }
+
+/* ---- power level comparison ---- */
+
+/* .button-link is for anchors; this is the same look on a real <button> */
+.action-btn {
+    padding: 10px 20px;
+    background-color: #ea841b;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.action-btn:disabled {
+    background-color: #9e9e9e;
+    cursor: default;
+}
+
+/* ---- comparison: character select ---- */
+
+#select-intro {
+    text-align: center;
+    color: #777;
+    font-style: italic;
+    margin: 25px 0 0;
+}
+
+#picker {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+    padding: 20px;
+}
+
+.picker-field {
+    width: 260px;
+}
+
+/* positioned so the suggestion list hangs off the input, not off the whole field */
+.input-wrap {
+    position: relative;
+}
+
+.picker-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.char-input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 12px;
+    font-family: inherit;
+    font-size: 1em;
+    border: 3px solid #ddd;
+    border-radius: 10px;
+    background: #f9f9f9;
+}
+
+.char-input:focus {
+    outline: none;
+    border-color: #ea841b;
+}
+
+.suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    margin: 5px 0 0;
+    padding: 0;
+    list-style: none;
+    max-height: 260px;
+    overflow-y: auto;
+    border: 3px solid #ea841b;
+    border-radius: 10px;
+    background: #f9f9f9;
+}
+
+.suggestions[hidden] {
+    display: none;
+}
+
+.suggestions li {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.suggestions li.active,
+.suggestions li:hover {
+    background: #ea841b;
+    color: white;
+}
+
+.picker-note {
+    min-height: 1.2em;
+    margin: 5px 0 0;
+    font-size: 0.8em;
+    font-style: italic;
+    color: #c0392b;
+}
+
+/* the VS label and swap button sit between the two inputs, lined up with them */
+#picker-middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-top: 28px;
+}
+
+#vs-divider {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ea841b;
+}
+
+#swap-btn {
+    font-size: 1.3em;
+    line-height: 1;
+    padding: 6px 14px;
+}
+
+#start-row {
+    text-align: center;
+}
+
+#start-note {
+    min-height: 1.2em;
+    margin: 8px 0 0;
+    font-size: 0.85em;
+    font-style: italic;
+    color: #c0392b;
+}
+
+/* the series toggles sit out of the way in the corner of the select screen */
+#comparison-series-filter {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 10px 12px;
+    border: 3px solid #ea841b;
+    border-radius: 20px;
+    background: #f9f9f9;
+}
+
+#series-filter-title {
+    margin: 0 0 4px;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#comparison-series-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+#comparison-series-menu .filter-btn {
+    margin: 0;
+    text-align: center;
+}
+
+/* ---- comparison: the bars ---- */
+
+/* the comparison scales with the viewport so it fills a large screen, with the
+   clamp ceilings sized for 2560x1440 */
+#page-title {
+    font-size: clamp(2em, 2.3vw, 3.6em);
+    margin: 0.4em 0;
+}
+
+#arena {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: clamp(30px, 3vw, 80px);
+    padding: 10px 30px 0;
+}
+
+.side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: clamp(15px, 1.2vw, 30px);
+}
+
+.side-top {
+    display: flex;
+    align-items: flex-end;
+    gap: clamp(20px, 1.8vw, 46px);
+}
+
+/* mirrors side B so the two bars meet in the middle: [art][bar] [bar][art] */
+#side-b .side-top {
+    flex-direction: row-reverse;
+}
+
+/* square and cropped, the same treatment as .character-card img, just scaled up */
+.fighter-art img {
+    width: clamp(190px, 26vw, 700px);
+    height: clamp(190px, 26vw, 700px);
+    border: 3px solid #ddd;
+    border-radius: 30%;
+    object-fit: cover;
+    background-color: #eee;
+}
+
+.bar-track {
+    position: relative;
+    width: clamp(150px, 10.5vw, 290px);
+    height: clamp(300px, 68vh, 1100px);
+    border: 3px solid #ddd;
+    border-radius: 14px;
+    background: #f9f9f9;
+    overflow: hidden;
+}
+
+/* height is driven by the script (Web Animations API); the gradient is two
+   colours sampled out of the character's art */
+.bar-fill {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 6%;
+    border-radius: 10px;
+    background: #ea841b;
+}
+
+/* sits in the middle of the filled part, so it rides up with the bar. the ceiling
+   keeps the longest label ("100 Quindecillion") on one line inside the bar */
+.bar-value {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    right: 5px;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: clamp(0.95em, 0.85vw, 1.5em);
+    line-height: 1.15;
+    color: white;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.75);
+}
+
+/* reuses .character-card for the form name / saga line under each bar */
+.side-caption {
+    align-self: stretch;
+    font-size: clamp(1.25em, 1.15vw, 2em);
+}
+
+#compare-controls {
+    display: flex;
+    justify-content: flex-end;
+    padding: clamp(12px, 1.2vh, 24px) 30px;
+}
+
+#step-counter {
+    font-weight: bold;
+    font-size: clamp(1em, 0.8vw, 1.4em);
+    color: #777;
+}
