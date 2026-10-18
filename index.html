@@ -28,7 +28,7 @@
             const response = await fetch('powerlevels.json');
             allCharacters = await response.json();
             createSeriesFilterMenu();
-            renderDisplay(allCharacters);
+            applySeriesFilter();
         } catch (error) {
             console.error("Error loading characters:", error);
         }
@@ -42,16 +42,18 @@
         { name: 'Dragon Ball Z', color: '#ea841b' },
         { name: 'Original Dragon Ball', color: '#C6C485' },
     ];
-    // colours of the series currently toggled on
     const activeSeries = new Set();
+    // series toggled on when the page first opens - add or remove names to change the default
+    const DEFAULT_SERIES = ['Dragon Ball Z', 'Dragon Ball Super'];
 
     function createSeriesFilterMenu() {
         const menu = document.getElementById('series-filter-menu');
-        // every series starts toggled on
+        // only the series listed in DEFAULT_SERIES start toggled on
         menu.innerHTML = seriesColors.map(series => {
-            activeSeries.add(series.color.toUpperCase());
+            const on = DEFAULT_SERIES.includes(series.name);
+            if (on) activeSeries.add(series.color.toUpperCase());
             return `
-            <button class="filter-btn series-toggle active" data-color="${series.color}" style="background:${series.color}" onclick="toggleSeries('${series.color}')">${series.name}</button>
+            <button class="filter-btn series-toggle${on ? ' active' : ''}" data-color="${series.color}" style="background:${on ? series.color : ''}" onclick="toggleSeries('${series.color}')">${series.name}</button>
         `;
         }).join('');
     }

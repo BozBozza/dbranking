@@ -1,6 +1,6 @@
 [
   {
-    "powerlevel": "1 Quadrillion x",
+    "powerlevel": "800 Trillion x",
     "name": "Mastered Ultra Instinct Avatar",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvKfYp1QIuZ9b07fflh3bS1ulHswf-tRg1glFnyCEVkw&s=10",
     "form": "Goku",
@@ -8,7 +8,7 @@
     "border": "#7982EA"
   },
   {
-    "powerlevel": "600 Trillion x",
+    "powerlevel": "240 Trillion x",
     "name": "True Ultra Instinct",
     "image": "https://static.wikia.nocookie.net/dragonball/images/e/e8/Goku%27s_true_Ultra_Instinct_%28color%29.PNG/revision/latest/scale-to-width-down/645?cb=20220820110158",
     "form": "Goku",
@@ -16,7 +16,7 @@
     "border": "#7982EA"
   },
   {
-    "powerlevel": "200 Trillion x",
+    "powerlevel": "80 Trillion x",
     "name": "Ultra Ego",
     "image": "https://static.wikia.nocookie.net/dragonball/images/4/46/Effects_of_Ultra_Ego_%28manga%29.png/revision/latest?cb=20220303233521",
     "form": "Vegeta",
@@ -24,17 +24,9 @@
     "border": "#7982EA"
   },
   {
-    "powerlevel": "200 Trillion x",
+    "powerlevel": "80 Trillion x",
     "name": "Mastered Ultra Instinct",
     "image": "https://dk2dv4ezy246u.cloudfront.net/widgets/sLg5PFrjWTC_large.jpg",
-    "form": "Goku",
-    "info": "Tournament of Power Saga",
-    "border": "#7982EA"
-  },
-  {
-    "powerlevel": "70 Trillion x",
-    "name": "Ultra Instinct Sign",
-    "image": "https://preview.redd.it/ultra-instinct-sign-goku-done-by-me-of-course-v0-jbrrqlyvnhjg1.png?width=640&crop=smart&auto=webp&s=3ab02c293211a287fade023db97e6d7d539ec9ee",
     "form": "Goku",
     "info": "Tournament of Power Saga",
     "border": "#7982EA"
@@ -48,7 +40,15 @@
     "border": "#7982EA"
   },
   {
-    "powerlevel": "1.35 Trillion x",
+    "powerlevel": "16 Trillion x",
+    "name": "Ultra Instinct Sign",
+    "image": "https://preview.redd.it/ultra-instinct-sign-goku-done-by-me-of-course-v0-jbrrqlyvnhjg1.png?width=640&crop=smart&auto=webp&s=3ab02c293211a287fade023db97e6d7d539ec9ee",
+    "form": "Goku",
+    "info": "Tournament of Power Saga",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "108 Billion x",
     "name": "Beast Form",
     "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2025/07/beast-gohan-serious-featured.jpg",
     "form": "Gohan",
@@ -145,6 +145,14 @@
   },
   {
     "powerlevel": "100,000x",
+    "name": "Potential Unlocked",
+    "image": "https://i.redd.it/whos-ultimate-potential-unleashed-form-do-you-like-more-v0-ld8g139g96ic1.jpg?width=1920&format=pjpg&auto=webp&s=0670a9be75cee01f1a499c4d023f4639655580b6",
+    "form": "Piccolo",
+    "info": "Superhero Movie",
+    "border": "#7982EA"
+  },
+  {
+    "powerlevel": "100,000x",
     "name": "Corrupted Form",
     "image": "https://static.wikia.nocookie.net/dragonball/images/6/6a/Light_of_Justice_power.png/revision/latest/scale-to-width-down/985?cb=20170815121651",
     "form": "Fused Zamasu",
@@ -160,28 +168,12 @@
     "border": "#7982EA"
   },
   {
-    "powerlevel": "50,000x",
-    "name": "Full Power Super Saiyan",
-    "image": "https://static.wikia.nocookie.net/dragonuniverse/images/7/79/Broly%27s_Aura.png/revision/latest?cb=20181107160004",
-    "form": "Broly",
-    "info": "Broly Movie",
-    "border": "#7982EA"
-  },
-  {
     "powerlevel": "48,333x",
     "name": "Powered Super Saiyan",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrsM7DEp0OArE9B3xGYBkcl1LOT28q2pKnWGbtBQtZchmySSJNUOYAbJA&s=10",
     "form": "Goku",
     "info": "Broly The Legendary Super Saiyan",
     "border": "#98B17B"
-  },
-  {
-    "powerlevel": "20,000x",
-    "name": "Potential Unlocked",
-    "image": "https://i.redd.it/whos-ultimate-potential-unleashed-form-do-you-like-more-v0-ld8g139g96ic1.jpg?width=1920&format=pjpg&auto=webp&s=0670a9be75cee01f1a499c4d023f4639655580b6",
-    "form": "Piccolo",
-    "info": "Superhero Movie",
-    "border": "#7982EA"
   },
   {
     "powerlevel": "4,000x",
@@ -198,22 +190,6 @@
     "form": "Kid Goku",
     "info": "Daima Saga",
     "border": "#9E64E0"
-  },
-  {
-    "powerlevel": "2,000x",
-    "name": "Super Perfect Form",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIkZesjathlJNlFpVezSuLXNXChloFpcsub0LeKZUxCf6_hVqWf9do1Q4&s=10",
-    "form": "Cell",
-    "info": "Cell Games Saga",
-    "border": "#ea841b"
-  },
-  {
-    "powerlevel": "1,000x",
-    "name": "Perfect Form",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROG-Ia9PtFjw0JxoY_C7LYP5HvoZad7neLbp8Qvukd90TSKdtcZOlI6_Y&s=10",
-    "form": "Cell",
-    "info": "Cell Games Saga",
-    "border": "#ea841b"
   },
   {
     "powerlevel": "500x",
@@ -246,6 +222,14 @@
     "form": "Goku",
     "info": "Buu Saga",
     "border": "#9E64E0"
+  },
+  {
+    "powerlevel": "400x",
+    "name": "Super Saiyan Grade 3",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/2/22/SSJ_Third_Grade_Future_Trunks_%28Digest_Manga%29.jpg/revision/latest/scale-to-width/360?cb=20250801201307",
+    "form": "Future Trunks",
+    "info": "Cell Saga",
+    "border": "#ea841b"
   },
   {
     "powerlevel": "226.42x",
@@ -297,6 +281,14 @@
   },
   {
     "powerlevel": "100x",
+    "name": "Super Saiyan Grade 2",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/d/df/Super_Saiyan_Second_Grade_Vegeta_%28Full_Color_Manga%29.png/revision/latest?cb=20190613162932",
+    "form": "Vegeta",
+    "info": "Cell Saga",
+    "border": "#ea841b"
+  },
+  {
+    "powerlevel": "100x",
     "name": "Kaioken x100",
     "image": "https://i.ytimg.com/vi/tfmjDg3E5-4/maxresdefault.jpg",
     "form": "Goku",
@@ -305,19 +297,11 @@
   },
   {
     "powerlevel": "75x",
-    "name": "Super Saiyan Grade 3",
-    "image": "https://static.wikia.nocookie.net/dragonball/images/2/22/SSJ_Third_Grade_Future_Trunks_%28Digest_Manga%29.jpg/revision/latest/scale-to-width/360?cb=20250801201307",
-    "form": "Future Trunks",
-    "info": "Cell Saga",
-    "border": "#98B17B"
-  },
-  {
-    "powerlevel": "62.5x",
-    "name": "Super Saiyan Grade 2",
-    "image": "https://static.wikia.nocookie.net/dragonball/images/d/df/Super_Saiyan_Second_Grade_Vegeta_%28Full_Color_Manga%29.png/revision/latest?cb=20190613162932",
-    "form": "Vegeta",
-    "info": "Cell Saga",
-    "border": "#98B17B"
+    "name": "Super Perfect Form",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIkZesjathlJNlFpVezSuLXNXChloFpcsub0LeKZUxCf6_hVqWf9do1Q4&s=10",
+    "form": "Cell",
+    "info": "Cell Games Saga",
+    "border": "#ea841b"
   },
   {
     "powerlevel": "50x",
@@ -366,6 +350,14 @@
     "form": "Turles",
     "info": "The Tree of Might",
     "border": "#98B17B"
+  },
+  {
+    "powerlevel": "37.5x",
+    "name": "Perfect Form",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROG-Ia9PtFjw0JxoY_C7LYP5HvoZad7neLbp8Qvukd90TSKdtcZOlI6_Y&s=10",
+    "form": "Cell",
+    "info": "Cell Games Saga",
+    "border": "#ea841b"
   },
   {
     "powerlevel": "25x",
@@ -417,14 +409,6 @@
   },
   {
     "powerlevel": "10x",
-    "name": "Semi Perfect Form",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdJ8IcqqP6xKtwNWHrttZ5I-ck-_0FXi6kSoF8AMo27bx4bAkZO74CEQlp&s=10",
-    "form": "Cell",
-    "info": "Cell Saga",
-    "border": "#ea841b"
-  },
-  {
-    "powerlevel": "10x",
     "name": "Great Ape",
     "image": "https://static.wikia.nocookie.net/dragonball/images/6/6e/Greatapemanga.jpg/revision/latest/scale-to-width/360?cb=20241012152924",
     "form": "Goku",
@@ -448,19 +432,19 @@
     "border": "#B42B2B"
   },
   {
-    "powerlevel": "7.88x",
-    "name": "1,000s of People Absorbed",
-    "image": "https://preview.redd.it/did-anyone-else-feel-like-cell-was-a-completely-different-v0-gdq89i2bxe7e1.jpg?width=1080&crop=smart&auto=webp&s=9d5b79fdb8a1a466e955a05e8c86099f534993af",
-    "form": "Cell",
-    "info": "Cell Saga",
-    "border": "#ea841b"
-  },
-  {
     "powerlevel": "6.04x",
     "name": "Suppressed Final Form",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEPckZK2ApjN21iE9Q-tDxVtTYbg_yb6yMsQ8lwGnUfpDW1loL78-3rLc&s=10",
     "form": "Frieza",
     "info": "Frieza Saga",
+    "border": "#ea841b"
+  },
+  {
+    "powerlevel": "6x",
+    "name": "Semi Perfect Form",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdJ8IcqqP6xKtwNWHrttZ5I-ck-_0FXi6kSoF8AMo27bx4bAkZO74CEQlp&s=10",
+    "form": "Cell",
+    "info": "Cell Saga",
     "border": "#ea841b"
   },
   {
@@ -478,6 +462,14 @@
     "form": "Janemba",
     "info": "Fusion Reborn",
     "border": "#98B17B"
+  },
+  {
+    "powerlevel": "4x",
+    "name": "1,000s of People Absorbed",
+    "image": "https://preview.redd.it/did-anyone-else-feel-like-cell-was-a-completely-different-v0-gdq89i2bxe7e1.jpg?width=1080&crop=smart&auto=webp&s=9d5b79fdb8a1a466e955a05e8c86099f534993af",
+    "form": "Cell",
+    "info": "Cell Saga",
+    "border": "#ea841b"
   },
   {
     "powerlevel": "4x",
@@ -514,7 +506,7 @@
   {
     "powerlevel": "3x",
     "name": "Max Power",
-    "image": "https://static.wikia.nocookie.net/dragonball/images/1/18/MasterRoshiSB.png/revision/latest/scale-to-width-down/250?cb=20100130164246",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY27Jru8aNqF6OWS6NPdSRh05eHyu1muH1dWo1nIB4fA&s=10",
     "form": "Master Roshi",
     "info": "Tournament Saga",
     "border": "#C6C485"
